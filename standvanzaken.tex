@@ -7,6 +7,114 @@
 
 % Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 
+\section{Inhoud}
+
+In het hoofdstuk \ref{ch:inleiding}: \nameref{ch:inleiding} werd al gesproken over interviews, methodes voor geluidsgeneratie en libraries voor geluidsverwerking. In dit hoofdstuk zullen alledrie die onderwerpen verder uiteengezet worden. Deze onderwerpen vormen de primaire en een deel van de secundaire bronnen van dit onderzoek.
+
+\section{Interviews}
+
+TO DO:
+\begin{itemize}
+    \item Push interviews naar git.
+    \item Transcribe.
+    \item hoofdpunten noteren per interview.
+\end{itemize}{}
+
+\subsection{Correspondentie}
+
+\subsection{Bart Vincent}
+
+\subsection{Peter Boone}
+
+\subsection{Thomas Houthave}
+
+\subsection{Vagabundos}
+
+\section{Methodes voor Geluidsgeneratie en -verwerking}
+
+%\textcite{methodes} beschrijft in zijn boek vijf methodes digitale geluidsgeneratie en toepassingen ervan.
+
+\begin{itemize}
+    \item Subtractive Synthesis
+    \item Additive Synthesis
+    \item Granular Synthesis
+    \item Wavelet en Corpus-based Synthesis
+\end{itemize}{}
+
+De werking van deze methodes wordt hieronder verder toegelicht.
+
+\subsection{Subtractive Synthesis}
+
+Bij subtractive synthesis start de gebruiker met een harmonisch rijke geluidsgolf. Een golf is harmonisch rijk wanneer het veel subfrequenties bevat. Voorbeelden hiervan zijn zaagtand-, blok- en driehoeksgolven Wanneer de golf puur gehoord wordt zal de fundamentele frequentie het dominantst klinken \autocite{harmonics}. Het is de taak van de gebruiker om door middel van frequentiefilters de ongewenste delen van het frequentiespectrum weg te halen en zo het geluid te modelleren \autocite{subtractive}
+
+\textcite{subtractive} bespreken in hun artikel methodes voor digitale geluidsgeneratie en -verwerking. Deze methodes zijn slechts een benadering van wat analoge synthesizers doen. Maar in tegenstelling tot andere pogingen om analoge geluidsgeneratie te digitaliseren zijn de resultaten van deze methodes niet te onderscheiden van het analoge geluid \autocite{subtractive}.
+
+Subtractive synthesis is tot vandaag nog steeds de standaard voor geluidsdesign sinds Robert A. Moog de eerste subtractive synthesizer modules uitbracht in de jaren '60 \autocite{subtractive}. \textcite{guitarpedals} beschrijft in zijn artikel hoe sommige effecten, die vandaag terug te vinden zijn in de effectpedalen voor gitaristen, digitaal verwerkt kunnen worden; allemaal door middel van subtractive synthesis.
+
+\subsection{Additive Synthesis}
+
+Additive synthesis is de tegenhanger van subtractive synthesis. Sinusgolven staan er gekend om maar één frequentie te hebben; hun fundamentele frequentie. Bij additive synthesis gaat de gebruiker tal van sinusgolven bij elkaar optellen om complexere geluiden te bekomen \autocite{additive}.
+
+Voor kleine toepassingen is deze berekening nog haalbaar voor een digitale workstation. Maar van het moment dat de geluiden complexer en harmonisch rijker moeten zijn, loopt de doorlooptijd van de generatie linear op met het aantal sommen van de additieve golf \autocite{additive}.
+
+Wanneer men harmonisch rijke golven wilt genereren zoals de zaagtandgolf, is dit onmogelijk te volbrengen op additieve wijze door het oneindig aantal sommaties dat berekend moet worden \autocite{harmonics}.
+
+\subsection{Granular Synthesis}
+
+Bij granular synthesis start de gebruiker met een of meerdere zeer korte geluidsfragmenten - grains - die aanzien worden als een periode van een geluidsgolf. De gebruiker zal die periode verschillende keren kopiëren en verschalen. De periode krijgt vervolgens ook een aanvangsttijd toegewezen. Door verschillende grains op die manier met elkaar te vermengen, kan de gebruiker het gewenste geluid modelleren \autocite{granular}.
+
+Granular synthesis is van eigen al een techniek die enkel digitaal toegepast kan worden. Met de IT-sector als doelpubliek is het een zeer aantrekkelijke methode voor sound synthesis. De techniek is zeer bruikbaar voor geluidssimulaties en -imitaties, vooral door middel van een AI \autocite{granular}.
+
+\textcite{granular} legt in zijn paper zelfs een manier uit om in real-time (live) aan granulair geluid te genereren. Zelf geeft hij aan het einde van zijn artikel wel toe dat hij geen toekomst ziet voor granular synthesis in de muziekproductie. Dit omdat er teveel parameters zijn die de gebruiker moet beïnvloeden.
+
+\subsection{Wavelet en Corpus-based Synthesis}
+
+Deze twee generatie methodes zijn soorten van granular synthesis. Door hun verschil in implementatie zijn ze elk toepasbaar op andere vlakken.
+
+\subsubsection{Wavelet Synthesis}
+
+Wavelet synthesis biedt de gebruiker niet meerdere maar slechts één periode om het modelleerproces mee te starten. De periode, hier wavelet genoemd, is op voorhand specifiek gekozen door de gebruiker om het gewenste geluid te kunnen bekomen. Verder verloopt het modelleerproces volledig zoals granular synthesis \autocite{wavelet}.
+
+Deze methode wordt meer gebruikt wanneer men zeer gedetailleerd geluid wilt nabootsen. Het modeleerproces vereist dat de gebruiker een goed inzicht heeft in muziektheorie en vergt ook dat het geluid iteratief gemodeleerd wordt 
+\autocite{wavelet}. Real-time is het dus slecht toepasbaar.
+
+\subsubsection{Corpus-based Granular Synthesis}
+
+Deze granulaire generatiemethode haalt de grains op uit een databank - de corpus - van vooraf opgenomen geluiden. Deze methode wordt vooral gebruikt wanneer men een specifiek geluid wilt imiteren. Een zoekalgoritme of AI weet dan exact waar hij gelijkaardige grains terug kan vinden en probeert dan het originele geluid na te bootsen aan de hand van die grains 
+\autocite{methodes}.
+
+Corpus-based is niet toepasbaar wanneer de gebruiker nieuwe geluiden wilt maken. Niet alleen heeft het dezelfde tekortkomingen als gewone granulaire geluidsgeneratie, het heeft ook nog extra vrijheidsgraden van welke grains te kiezen uit de hele corpus.
+
+\section{Libraries}
+
+\subsection{Beads}
+
+Beads is een open-source Java library gemaakt door Ollie Bown. Het project is in 2008 tot stand gekomen met behulp van Monash University in Melbourne en heeft in 2014 zijn laatste update gekregen \autocite{beads}.
+
+De library is bedoeld voor het schrijven van real-time\footnote{Wanneer een library of programma multi-threaded werkt zodat de gebruiker met het geluid kan interageren terwijl het gegenereerd of bewerkt wordt.} programma's voor geluidsverwerking. Java was hier onmiddellijk de taal van voorkeur omdat het open-source is. De ontwikkelaars melden op hun site dat ze een zeer flexibele IO-laag geïmplementeerd hebben zodat de library zich in verschillende contexten kan benutten \autocite{beads}. 
+
+Het doel van Beads is het vergemakkelijken audio-implementatie. Bown en zijn team hopen om de ontwikkeling van audio applicaties toegankelijker te maken voor de standaard programmeur \autocite{beads2}.
+
+\subsection{JASS}
+
+\textcite{jass} ontwikkelden JASS (Java Audio Synthesis System) voor hun onderzoek naar efficiente geluidsgeneratie. Deze library is de kers op de taart van zeven voorafgaande onderzoeken naar modellen voor geluidsgeneratie die bedoeld zijn voor geluidseffecten in video games en simulaties. 
+
+\textcite{jass} leggen uit hoe verschillende libraries verschillende doeleinden, implementaties en kosten hebben. Hun doel met JASS is om een library te schrijven die, naast alle requirements die opgelijst staan in de paper, ook een breed scala van mogelijke toepassingen heeft. JASS is dus bedoeld als all-round library voor om het even welke sector \autocite{jass}.
+
+In hun paper leggen \textcite{jass} de innerlijke werking van JASS uit. Hier valt op dat het een modulaire\footnote{Iedere module heeft zijn eigen atomaire rol (oscillator, filter, compressor, versterker etc.). Door ze met elkaar te verbinden - of patchen - krijgt de gebruiker een zelf ontworpen stramien van parameters waarmee hij zijn geluid kan boetseren.} library is \autocite{jass}. Dit is ook hoe programma's voor geluidsbewerking en (modulaire) synthesizers opgebouwd zijn. Het is dus intuïtief voor ons doelpubliek.
+
+\subsection{JMusic}
+
+\subsection{JSyn}
+
+
+
+\subsection*{In Vergelijking}
+
+\
+
+\iffalse
+
 Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
 
 Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz. naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\LaTeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin, gebruik je \texttt{$\backslash${}textcite\{\}}.
@@ -15,3 +123,5 @@ Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backsla
 \textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
 
 \lipsum[7-20]
+
+\fi

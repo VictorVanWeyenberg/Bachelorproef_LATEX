@@ -1,0 +1,72 @@
+
+\newcount\foo
+
+\chapter{Testresultaten}
+\label{ch:testresultaten}
+
+\section{Testresultaten van Beads}
+
+\foo=1
+\loop
+  
+     \begin{longtable}[c]{|l|l|l|}
+        \caption{Beads testresultaten van case \the\foo.}\\
+        \hline
+        \textbf{Index} & \textbf{\%CPU} & \textbf{\%Mem}\\
+        \hline
+        \csvreader[
+            column count = 50,
+            late after line = \\]
+        {csvs/beads\the\foo.csv}
+        {2=\index,7=\CPUPerc,8=\MemPerc}
+        {\index & \CPUPerc & \MemPerc}
+    \end{longtable}
+  
+  \advance \foo +1
+\ifnum \foo<7
+\repeat
+
+\section{Testresultaten van JASS}
+
+\foo=1
+\loop
+  
+      \begin{longtable}[c]{|l|l|l|}
+        \caption{JASS testresultaten van case \the\foo.}\\
+        \hline
+        \textbf{Index} & \textbf{\%CPU} & \textbf{\%Mem}\\
+        \hline
+        \csvreader[
+            column count = 50,
+            late after line = \\]
+        {csvs/jass\the\foo.csv}
+        {2=\index,7=\CPUPerc,8=\MemPerc}
+        {\index & \CPUPerc & \MemPerc}
+    \end{longtable}
+  
+  \advance \foo +1
+\ifnum \foo<7
+\repeat
+
+\section{Testresultaten van JSyn}
+
+\foo=1
+\loop
+  
+      \begin{longtable}[c]{|l|l|l|}
+        \caption{JSyn testresultaten van case \the\foo.}\\
+        \hline
+        \textbf{Index} & \textbf{\%CPU} & \textbf{\%Mem}\\
+        \hline
+        \csvreader[
+            column count = 50,
+            late after line = \\]
+        {csvs/jsyn\the\foo.csv}
+        {2=\index,7=\CPUPerc,8=\MemPerc}
+        {\index & \CPUPerc & \MemPerc}
+    \end{longtable}
+  
+  \advance \foo +1
+\ifnum \foo<7
+\repeat
+

@@ -5,6 +5,14 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
 \label{ch:inleiding}
 
+\section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
+\label{sec:probleemstelling}
+
+Dit onderzoek vindt zijn oorsprong in de aloude concurrentie tussen analoge en digitale geluidsverwerking. Meer bepaald bij muzikanten, muzikaal artiesten en producenten die hun \textbf{live} opstelling uitrusten met allerlei analoge componenten. Denk hier aan effectpedalen, voorversterkers, equalizers, compressors, mengpanelen, \textit{Direct Injection} boxen (DI-box) etc. Een productontwerper of IT-bedrijf zou al snel denken om hier digitale varianten van op de markt te brengen. Dat was inderdaad het geval voor veel mengtafelproducenten. Bekende merken zoals AKAI, Roland en Behringer zijn er al in geslaagd om volledig digitale mengtafels te produceren. Veel andere, ook kleinere bedrijven volgen hen. De digitale concurrenten hebben tal van voordelen op hun analoge voorgangers en wekken dus een grote vraag op in bij de consumenten.
+
+Wat onveranderd gebleven is, is de aankoopprijs. Evenals hun analoge voorgangers kosten de digitale mengtafels al makkelijk \EUR{20.000}. Dit onderzoek wilt nog een stap verder gaan met de digitalisering. Deze paper probeert te achterhalen of zulke producten onder te brengen zijn in de vorm van puur software zonder bijkomende hardware. De aankoopprijs kan zo significant dalen en consumenten voeren alle operaties uit met enkel een standaard laptop.
+
+\iffalse
 De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
 
 \begin{itemize}
@@ -17,20 +25,112 @@ De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te
   \item \ldots
 \end{itemize}
 
+
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
 Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
-\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
-\label{sec:onderzoeksvraag}
+\fi
+
+\section{\IfLanguageName{dutch}{Afbakening}{Demarcation}}
+\label{sec:afbakening}
+
+De focus ligt puur op de vraag van de consument, de mogelijkheid tot intrede in de markt en de technische realiseerbaarheid.
+
+\subsection{In-scope}
+
+Het onderzoek beperkt zich tot een marktonderzoek en een technische test.
+
+Om te zien of de overstap van analoog naar deze digitale omgeving realistisch is, wordt de technische test uitgevoerd. Daarin worden \textbf{real-life cases} uit de wereld van muziekproductie omgezet naar een \textbf{virtuele omgeving}.
+
+De virtuele omgeving bestaat uit drie libraries voor geluidsverwerking. De libraries worden getest op performantie. Goede resultaten geven aan dat het technisch gezien realistisch is om de overstap naar digitaal te maken.
+
+De real-life cases worden verkregen door middel van interviews in het marktonderzoek. Hier werden bands en producers gevraagd om de opstelling van hun live installaties uit te leggen. Deze installaties worden omgezet naar parameters voor de virtuele test cases. De parameters van de test cases zijn dus een discrete dataset en geen alomvertegenwoordigend spectrum van alle mogelijke installatiescenario's. Dit omdat het testen van een continue dataset teveel tijd in beslag zou nemen (na berekening blijkt 1275 dagen) en omdat meer dan de helft van de test cases redundant zouden zijn.
+
+\subsection{Out-of-scope}
+
+Het is duidelijk dat bij het onderbrengen van analoge producten in een software-pakket, de fysieke user-interface volledig wegvalt. Een fysieke interface is een groot argument pro analoog maar geen geldig argument tegen de potentie van digitalisatie. Daarom valt ergonomie buiten de scope van dit onderzoek.
+
+\iffalse
+
+\section{\IfLanguageName{dutch}{Methodologie}{Methodology}}
+\label{sec:methodologie}
+
+Zoals eerder vermeld wordt er een marktonderzoek en technische test uitgevoerd. Deze worden verder in het artikel respectievelijk vernoemd als de emotionele en empirische test.
+
+De emotionele test gaat aan de hand van interviews de maat nagaan waarin of de muzieksector de digitalisatie verwelkomt. Voor de interviews werd gezocht naar muzikanten, bands, muzikaal artiesten, producers en opnamestudio's. De test beantwoordt of er vraag is naar digitalisatie en wie er baat bij zou hebben. Dit onderzoek beschouwt ook de live muziekinstallatie van de artiesten en een paar real-life usecases die ze daarvoor konden geven.
+
+De emotionele test heeft twee uitkomsten: ...
+
+\fi
+
+\section{\IfLanguageName{dutch}{Onderzoeksvragen}{Research questions}}
+\label{sec:onderzoeksvragen}
+
+De hoofdvraag luidt als volgt:
+
+\subsubsection{Waarom blijft de muziekindustrie analoog werken in een digitale wereld?}
+
+Secundaire bronnen geven al snel een antwoord op deze vraag. Het antwoord is hetzelfde voor veel vakken die hun overstap van analoog op digitaal maken. Dat blijkt uit de artikels \textit{Analog vs. Digital Synthesizers – My Take on the Old Debate} \autocite{juliusdobos} en \textit{Analogue artists defying the digital age} \autocite{GuardianOpinion} alsook uit de interviews die voor dit onderzoek gevoerd werden. Daarin vonden we terug dat het grootste argument pro analoog de authentieke look-and-feel van de hardware is. Desondanks is dit geen tegenargument voor digitalisatie. Om hier dieper op in te gaan hebben we volgende deelvragen gesteld.
+
+\subsubsection{Is het mogelijk om digitaal te gaan?}
+
+Er zijn al tal van programma's waarmee men live aan geluidsverwerking kan doen. Deze programma's worden vaak gebruikt door DJ's en berusten altijd op externe harware. Deze deelvraag toont aan of de usecase van de DJ gegeneraliseerd kan worden naar andere actoren e.g. bands, producers, opname-artiesten etc.
+
+Er wordt door middel van een literatuurstudie gezocht naar methodes voor digitale geluidsgeneratie en -verwerking. Van hoog belang is dat de methodes real-time toegepast kunnen worden door het doelpubliek; artiesten en producers.
+
+\subsubsection{Is het nuttig om digitaal te gaan?}
+
+Van alle mogelijke methodes voor digitale geluidsverwerking zal de scope vernauwt worden op slechts één methode. Deze methode wordt gekozen op basis van de mate waarin het intuïtief bruikbaar is voor en door het doelpubliek, de real-time capaciteit en de design capaciteit voor het modelleren van geluid.
+Zo beantwoordt deze vraag hoe de emotionele en empirische tests opgesteld zullen worden.
+
+\subsubsection{Is het realistisch om digitaal te gaan?}
+
+Op basis van de gekozen methode en hiervoor omschreven requirements worden drie libraries gezocht. Vervolgens worden er door middel van interviews naar real-life usecases gevraagd uit de muzieksector. En als laatste worden de specificaties van het teststation omschreven.
+
+De real-life cases worden generiek omschreven in de libraries. De libraries zullen de cases uitvoeren en worden hierbij getest op performantie. Als er significant goede resultaten zijn, zelfs bij slechts één van de libraries, toont dat aan dat het technisch mogelijk is om digitaal te gaan. De empirische tests worden per usecase uitgevoerd. De resultaten van een test tonen enkel aan dat het realistisch is om digitaal te gaan voor die specifieke usecase.
+
+Dit is de empirische test.
+
+\subsubsection{Is de overstap van analoog naar digitaal mogelijk?}
+
+Naast real-life usecases worden de geïnterviewden ook gevraagd in welke mate ze de digitalisatie verwelkomen en of ze geïnteresseerd zouden zijn in zulke innovaties.
+
+Dit is de emotionele test.
+
+Op basis van de resultaten van zowel de emotionele als empirische tests wordt per usecase bepaald of het mogelijk is om de overstap naar digitaal te maken.
+
+\iffalse
 
 Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+
+\fi
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
+De emotionele en empirische tests hebben elk twee uitkomsten: positief en negatief. Afhankelijk van de resultaten van de tests kunnen ondernemingen beslissen of het slim is om de markt te betreden met deze innovatie.
+
+\subsection*{Emotionele test}
+
+\begin{itemize}
+    \item \textbf{Positief}: Uit de interviews blijkt dat de muzieksector geïnteresseerd is in digitalisering. Een onderneming kan succesvol deze markt betreden.
+    \item \textbf{Negatief}: Deze innovatie wordt niet verwelkomd door de muzieksector. Wanneer een onderneming deze markt betreedt zal het geen vruchten afwerpen.
+\end{itemize}
+
+\subsection*{Empirische test}
+
+\begin{itemize}
+    \item \textbf{Positief}: Deze usecase is uitvoerbaar op het teststation. Het is technisch gezien mogelijk voor de actor om de overstap naar digitaal te maken.
+    \item \textbf{Negatief}: Deze usecase is niet uitvoerbaar op het teststation. De actor van de usecase moet een sterkere machine hebben of blijft beter analoog te werk gaan.
+\end{itemize}
+
+\iffalse
+
 Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
+
+\fi
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
 \label{sec:opzet-bachelorproef}
