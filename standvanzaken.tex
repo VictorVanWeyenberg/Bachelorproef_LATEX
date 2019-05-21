@@ -87,31 +87,81 @@ Corpus-based is niet toepasbaar wanneer de gebruiker nieuwe geluiden wilt maken.
 
 \section{Libraries}
 
-\subsection{Beads}
-
-Beads is een open-source Java library gemaakt door Ollie Bown. Het project is in 2008 tot stand gekomen met behulp van Monash University in Melbourne en heeft in 2014 zijn laatste update gekregen \autocite{beads}.
-
-De library is bedoeld voor het schrijven van real-time\footnote{Wanneer een library of programma multi-threaded werkt zodat de gebruiker met het geluid kan interageren terwijl het gegenereerd of bewerkt wordt.} programma's voor geluidsverwerking. Java was hier onmiddellijk de taal van voorkeur omdat het open-source is. De ontwikkelaars melden op hun site dat ze een zeer flexibele IO-laag geïmplementeerd hebben zodat de library zich in verschillende contexten kan benutten \autocite{beads}. 
-
-Het doel van Beads is het vergemakkelijken audio-implementatie. Bown en zijn team hopen om de ontwikkeling van audio applicaties toegankelijker te maken voor de standaard programmeur \autocite{beads2}.
+\subsection{JMusic}
 
 \subsection{JASS}
 
 \textcite{jass} ontwikkelden JASS (Java Audio Synthesis System) voor hun onderzoek naar efficiente geluidsgeneratie. Deze library is de kers op de taart van zeven voorafgaande onderzoeken naar modellen voor geluidsgeneratie die bedoeld zijn voor geluidseffecten in video games en simulaties. 
 
-\textcite{jass} leggen uit hoe verschillende libraries verschillende doeleinden, implementaties en kosten hebben. Hun doel met JASS is om een library te schrijven die, naast alle requirements die opgelijst staan in de paper, ook een breed scala van mogelijke toepassingen heeft. JASS is dus bedoeld als all-round library voor om het even welke sector \autocite{jass}.
+\textcite{jass} leggen uit hoe verschillende libraries verschillende doeleinden, implementaties en kosten hebben. Hun doel met JASS is om een library te schrijven die, naast alle requirements die opgelijst staan in hun paper, ook een breed scala van mogelijke toepassingen heeft. JASS is dus bedoeld als all-round library voor om het even welke sector \autocite{jass}.
 
-In hun paper leggen \textcite{jass} de innerlijke werking van JASS uit. Hier valt op dat het een modulaire\footnote{Iedere module heeft zijn eigen atomaire rol (oscillator, filter, compressor, versterker etc.). Door ze met elkaar te verbinden - of patchen - krijgt de gebruiker een zelf ontworpen stramien van parameters waarmee hij zijn geluid kan boetseren.} library is \autocite{jass}. Dit is ook hoe programma's voor geluidsbewerking en (modulaire) synthesizers opgebouwd zijn. Het is dus intuïtief voor ons doelpubliek.
+\subsubsection*{De Code}
+\label{sec:jass_code}
 
-\subsection{JMusic}
+JASS kan teruggevonden worden op de website van van den Doel \autocite{jasscode}.
+
+In hun paper leggen \textcite{jass} de innerlijke werking van JASS uit. Hier valt op dat het een modulaire\footnote{Iedere module heeft zijn eigen atomaire rol (oscillator, filter, compressor, versterker etc.). Door ze met elkaar te verbinden - of patchen - krijgt de gebruiker een zelf ontworpen stramien van parameters waarmee hij zijn geluid kan boetseren.} library is. De ontwikkelaar kan zijn eigen modules ontwikkelen door over te erven van gegeven abstracte klassen en interfaces  \autocite{jass}. 
+
+Dit is ook hoe programma's voor geluidsbewerking en (modulaire) synthesizers opgebouwd zijn. Modulaire programma's zijn intuïtief voor gebruikers uit de muzieksector \autocite{bartvincent}.
+
+Een ontwikkelaar instantieert een geluidsgenererende subklasse. Deze klasse erft dus van de \verb+engine.Out+ klasse. Bijgevolg moet deze klasse de \verb+computeBuffer+ methode implementeren. Deze methode kan één van volgende twee dingen doen. Ofwel genereert het een buffer. Ofwel verwerkt het een buffer die de klasse verkrijgt via een \verb+engine.Source+ attribuut. Alle klassen die erven van \verb+engine.In+ en \verb+engine.InOut+ hebben een \verb+addSource+ methode waarmee een \verb+Source+ toegevoegd kan worden \autocite{jass}.
+
+Wanneer een stramien van verwerkte buffers uiteindelijk via een \verb+SourcePlayer+ aangesloten wordt op de audio output van de machine, kan de buffer gehoord worden. Evenals subklassen van \verb+engine.In+ en \verb+engine.InOut+ kan een \verb+SourcePlayer+ meerdere \verb+Source+'s hebben \autocite{jass}.
+
+\subsection{Beads}
+
+Beads is een open-source Java library gemaakt door Oliver Bown. Het project is in 2008 tot stand gekomen met behulp van Monash University in Melbourne en heeft in 2014 zijn laatste update gekregen \autocite{beads}.
+
+De library is bedoeld voor het schrijven van real-time\footnote{Wanneer een library of programma multi-threaded werkt zodat de gebruiker met het geluid kan interageren terwijl het gegenereerd of bewerkt wordt.} programma's voor geluidsverwerking. Java was hier onmiddellijk de taal van voorkeur omdat het open-source is. De ontwikkelaars melden op hun site dat ze een zeer flexibele IO-laag geïmplementeerd hebben zodat de library zich in verschillende contexten kan benutten \autocite{beads}. 
+
+Het doel van Beads is het vergemakkelijken audio-implementatie. Bown en zijn team hopen om de ontwikkeling van audio applicaties toegankelijker te maken voor de standaard programmeur \autocite{beads2}.
+
+\subsubsection*{De Code}
+
+Programmeren in Beads start met het instantiëren van een \verb+AudioContext+. Deze klasse vraagt in zijn constructor naar een audio output device. Het selecteren van een audio output device is mogelijk in native Java \autocite{beadsdocs}.
+
+Wat oscillatoren betreft biedt Beads er reeds een paar voorgeprogrammeerde aan. Deze zijn ondergebracht in de \verb+Buffer+ klasse. De golven kunnen afgespeeld worden aan hand van een \verb+WavePlayer+ klasse \autocite{beadsdocs}.
+
+Beads werkt, net zoals JASS, ook modulair. Klassen die erven van \verb+UGen+ implementeren de \verb+addInput+ methode. De methode vraagt een andere \verb+UGen+ als parameter wiens output de input wordt van de betreffende \verb+UGen+ \autocite{beadsdocs}.
+
+Om \verb+UGen+'s te horen, moeten ze aangesloten worden op de \verb+AudioContext+. De \verb+AudioContext+ kan meerdere \verb+UGen+'s als input aanvaarden. Vervolgens moet de ontwikkelaar de \verb+start+ methode oproepen in \verb+AudioContext+ om het geluid af te laten spelen \autocite{beadsdocs}.
 
 \subsection{JSyn}
 
+JSyn is - de naam verraadt het - een Java library die traditionele modellen van modulaire synthesizers imiteert \autocite{jsyn}. Net zoals Beads is het real-time en open-source verkrijgbaar op GitHub \autocite{jsyngit}.
 
+Mobileer Inc. hebben naast JSyn ook twee andere software audio projecten gereleased: JMSL (Java Music Specification Language) en PortAudio. JMSL is een Java-based specificatie taal waarin gebruikers instrumenten en composities kunnen definiëren. PortAudio is een cross-platform audio IO-library voor C \autocite{jsyn}.
+
+\subsubsection*{De Code}
+
+Beschouw de documentatie van JSyn \autocite{jsyndocs}. Daar vinden we een aantal herkenbare klassen terug zoals basis oscillatoren (sinus-, zaagtand-, driehoeks- en blokgolf), verschillende soorten filters (low-pass, high-pass, band-pass, multi-pole etc.) en zelfs effecten (delay, envelope etc.).
+
+JSyn baseert zich op één moederklasse: \verb+Synthesizer+. Wanneer een ontwikkelaar modules instantieert, moeten die via de \verb+add+ methode toegevoegd worden aan de \verb+Synthesizer+ vooraleer ze gehoord kunnen worden. De \verb+Synthesizer+ klasse staat in voor het starten van alle toegevoegde modules en beslist ook de geluidskwaliteit van de output \autocite{jsyndocs}.
+
+De genererende en verwerkende klassen hebben - net zoals in JASS - een methode die een buffer genereert of verwerkt. Kijk hiervoor terug naar \ref{sec:jass_code}. De methode heet \verb+pullData+ en verkrijgt de te verwerken buffers via de \verb+UnitInputPort+-attributen van de klassen \autocite{jsyndocs}.
+
+JSyn is, evenals Beads en JASS ook modulair. Het verbinden van klassen is mogelijk door de \verb+UnitInputPort+- en \verb+UnitOutputPort+-attributen van genererende en verwerkende klassen. Via de \verb+connect+ methode kan een ontwikkelaar een \verb+UnitOutputPort+ connecteren aan een \verb+UnitInputPort+ \autocite{jsyndocs}.
+
+Een stramien van verwerkte buffers, wordt via de \verb+LineOut+ klasse op de audio output van de machine aangesloten. Wanneer de ontwikkelaar de \verb+start+ methode oproept op zowel de \verb+LineOut+ als de \verb+Synthesizer+, zal het geluid gehoord worden. Het \verb+UnitInputPort+-attribuut van \verb+LineOut+ kan meerdere inputs ontvangen \autocite{jsyndocs}.
 
 \subsection*{In Vergelijking}
 
-\
+\begin{longtable}[c]{l|lll}
+         & \textbf{Beads} & \textbf{JASS} & \textbf{JSyn} \\ \hline
+        \textbf{Real-time} & Ja & Ja & Ja \\
+        \textbf{Modulair} & Ja & Ja & Ja \\
+        \textbf{Buffer methode} & calculateBuffer & computeBuffer & pullData \\
+        \textbf{Synthesis methode} & Subtractive & Subtractive & Subtractive \\
+    \caption{Vergelijking van de drie testlibraries.}
+    \label{tab:vergelijking}
+\end{longtable}
+
+Wanneer we de documentatie van de drie libraries beter bekijken, valt op dat hun code in essentie hetzelfde doet. Niet alleen hebben ze alle gelijkenissen uit tabel \ref{tab:vergelijking}, de architectuur van het verbinden van genererende en verwerkende buffers is duidelijk ook typerend aan sound libraries.
+
+Uitzonderlijk bij JSyn is wel dat alle parameters een \verb+UnitInputPort+ zijn. Neem een low-pass filter (LPF) als voorbeeld. Gegeven een harmonisch rijke geluidsgolf gaat een LPF alle aanwezige frequenties hoger dan een gegeven cut-off frequentie weg filteren. Het te filteren geluid is hier onze input - zoals bij zowel JSyn als andere libraries het geval is. De cut-off frequentie is hier een parameter voor de module.\newline
+Bij de meeste libraries zijn zulke parameters statische getallen. JSyn behandelt zulke parameters als \verb+UnitInputPort+'s \autocite{jsyndocs}.
+
+De filosofie van object-oriented programming is het modelleren van de echte wereld. In dit voorval is JSyn de beste representatie van echte modulaire synthesizers. Parameters van modules zijn maar zelden statische waarden. Artiesten willen een interactieve band hebben met hun geluid. Daarvoor moeten zulke parameters dynamisch aangepast kunnen worden \autocite{vagabundos}. In het geval van modulaire synthesizers \textit{"moduleert"} men parameters door middel van \textit{"control voltage"} \autocite{modular}.
 
 \iffalse
 
