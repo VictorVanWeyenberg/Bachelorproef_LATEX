@@ -13,6 +13,10 @@ In het hoofdstuk \ref{ch:inleiding}: \nameref{ch:inleiding} werd al gesproken ov
 
 \section{Interviews}
 
+Voor het opstellen van de empirische tests werd er gezocht naar real-life cases. Zo konden de tests representatief zijn voor usecases uit de muzieksector.
+
+De cases zijn verkregen uit interviews met bands, artiesten en opnamestudio's. Deze sectie gaat over het verkrijgen van de interviews en de hoofdpunten ervan.
+
 TO DO:
 \begin{itemize}
     \item Push interviews naar git.
@@ -22,17 +26,126 @@ TO DO:
 
 \subsection{Correspondentie}
 
-\subsection{Bart Vincent}
+Tabel \ref{table:correspondenten} toont alle artiesten die gevraagd zijn om geïnterviewd te worden. De selectie van mogelijke kandidaten hield rekening met volgende criteria:
 
-\subsection{Peter Boone}
+\begin{itemize}
+    \item Er werden zoveel mogelijk instanties gevraagd zodat er van iedere branche\footnote{Muzikant, artiest, band, opnamestudio, sound designer, producer, radio etc.} in de muzieksector zeker een interview verkregen is.
+    \item Iedere branche kon live geïnterviewd worden zodat er mogelijkheid was tot doorvragen.
+    \item De interviewee heeft ervaring met live optreden en kan spreken over zijn geluidsinstallatie en de good-practice ervan.
+\end{itemize}{}
 
-\subsection{Thomas Houthave}
+Alle correspondentie - de betrachtingen tot het verkrijgen van interviews - staan in tabel \ref{table:correspondentie}. Iedere instantie heeft meerdere maals een verzoek gekregen. 
 
-\subsection{Vagabundos}
+Van de 25 gevraagde instanties heeft minder dan de helft geantwoord. Slechts bij vier van die helft is het gelukt om een interview af te nemen. Sommige instanties annuleerden hun afspraak. Andere instanties stuurden de aanvraag - soms cyclisch - door naar medewerkers.
+
+De vier geslaagde interviews zijn opgenomen. U kan deze terugvinden in de bronverwijzing. Het doel van deze interviews was het verkrijgen van real-life usecases. Door de respons is de usecase van een branch verkregen van een enkele instantie. De omvang van de interviews is te klein om een representatieve steekproef te zijn. De usecases verkregen van deze instanties zijn wel gebruikt in de empirische tests. Dit door gebrek aan alternatieve data.
+
+\subsection{Bart Vincent (Producer)}
+
+Het opgenomen interview met Bart Vincent kan teruggevonden worden op GitHub \autocite{bartvincent}. Er staat een transcriptie van dit interview in appendix \ref{trans:bartvincent}. Dit interview werd afgenomen op 11 april 2019.
+
+\subsubsection*{Persona}
+
+Vincent is de producer voor artiesten zoals Sundahl, Kapitan Korsakov en de befaamde jazz zangeres Melanie De Biasio. Hij doet zowel de opname als het live geluid voor zijn artiesten en heeft ervaring met het schrijven en opvoeren van muziek.
+
+\subsubsection*{Interview}
+
+Vincent meldt in zijn interview dat er reeds een evolutie gaande is in de muzieksector. Digitale mengtafels komen tegenwoordig veel meer voor dan twee à drie jaar geleden. Een must voor deze apparatuur is dat er een fysieke user-interface is \autocite{bartvincent}.
+
+In zijn werkproces is hij een idealist. In opname zoekt hij samen met zijn artiesten naar het gewenste geluid. Hij probeert dit vervolgens vast te leggen met oog op zo min mogelijk aanpassing in post-productie. Hij benadrukt dat een goede band en communicatie met de artiesten hier essentieel is \autocite{bartvincent}.
+
+``Er is zeer weinig dat nog real-time aangepast wordt,'' meldt Vincent over zijn ervaring als geluidstechnicus \autocite{bartvincent}. ``Als een muzikant te luid speelt bij de sound check, dan communiceer ik dat ook. Maar live, tijdens het concert, pas ik daar weinig van aan.''
+
+Vincent verwelkomt de digitalisering. Hij is van idee dat een computer nooit het werk van een mens kan volbrengen. In de tools die de mens bijstaan in productie ziet hij wel een verbeterende toekomst. ``Het verwantschap met het instrument gaat anders zijn, maar het is nog steeds een instrument dat je kan leren spelen,'' aldus Vincent \autocite{bartvincent}.
+
+\subsubsection*{Opstelling}
+
+Vincent spreekt zowel over zijn live opstelling alsook over zijn opstelling in opname van Melanie De Biasio. Zo'n 50-tal tracks krijgen elk equalization en compressie toegepast. Op de instrumentale tracks past hij vijf effecten toe. Dit wordt op twintig tracks geschat \autocite{bartvincent}.
+
+\subsection{Peter Boone (Producer en Muzikaal Artiest)}
+\label{sub:boone}
+
+Het opgenomen interview met Peter Boone kan teruggevonden worden op GitHub \autocite{peterboone}. Er staat een transcriptie van dit interview in appendix \ref{trans:peterboone}. Dit interview werd afgenomen op 25 april 2019.
+
+\subsubsection*{Persona}
+
+Peter Boone staat gekend als een \textit{jack of all trades} in de muziek wereld. Naast zijn job als producer gaat hij ook door als muzikant en arrangeur. Hij is het meest gekend als keyboardist voor EBM band A Split-Second waar hij in de jaren '80 tot '90 mee tourde.
+
+\subsubsection*{Interview}
+
+``Op het moment dat de digitalisatie begon, kon het gewoon niet digitaler,'' zegt Boone, ``met momenten vond ik het ambetant dat zelfs een microfoon nog analoog was.'' \autocite{peterboone} De prestatie van digitale mengtafels vond hij altijd maar teleurstellend. Dit ligt volgens hem aan de resolutie van het geluid. De meeste mengtafels werken in 16 bit aan 44.1 kHz wat hij CD-kwaliteit en beschamend slecht noemt \autocite{peterboone}.
+
+Er zijn mengtafels die 88.2 kHz en zelfs 192 kHz aankunnen. Deze tools zijn mede door het grote prijs etiket niet veel verspreid. Boone legt uit dat dit door een standardisatie in geluid. In de context van live muziek looft hij digitale mengtafels omdat alles veel sneller moet gebeuren. Het publiek gaat daarbij ook niet struikelen over de 44.1 kHz. ``Het werkt zeer professioneel,'' aldus Boone \autocite{peterboone}.
+
+Wanneer het echter aankomt op het vastleggen van het geluid, moet alles zo lang mogelijk analoog blijven. Boone meldt: ``eender wat je \verb+[aan 44.1 kHz]+ van subtiliteit in \verb+[geluid]+ wilt steken gaat verloren omdat de notatie niet goed genoeg is. Eens je daar naar 88.2 kHz gaat wordt een galm terug een ruimte inplaats van een effectje.'' \autocite{peterboone}
+
+Desondanks dat Boone deel uitmaakte van een Electronic Body Music (EBM) band, is hij wel volledig afgestapt van hardware synthesizers. Tegenwoordig gebruikt hij enkel nog software synthesizers. Net zoals de plug-ins in programma's voor audiobewerking zijn de algoritmes van software synthesizers exacte kopieën van wat de analoge machines achter de schermen doen. In tegenstelling tot de plug-ins hoor je, volgens hem, geen hoorbaar verschil tussen hardware synthesizers en de hedendaagse software varianten ervan \autocite{peterboone}.
+
+Boone zijn beeld van de digitalisatie is gemengd. Hij is zelf een grote voorstander van analoog, de keuze om een overstap naar digitaal te maken is volgens hem zeer afhankelijk van het genre van de muziek.  ``\ldots de tijd gaat vooruit \textit{whether you like it or not}. Ik ben er \ldots van overtuigd dat je \textit{the best of both worlds} moet gebruiken.'' \autocite{peterboone}
+
+\subsubsection*{Opstelling}
+
+EBM bands zijn zeer rechtuit. Waar bij de opnames van bands vaak instrumenten meerdere maals opgenomen worden om een \textit{wall of sound} te creëren, zijn EBM bands zeer rechtuit. Voor dat genre worden er zowel op band als digitaal zo'n 24 sporen gebruikt.
+
+\subsection{Thomas Houthave (Sound Designer)}
+
+Het opgenomen interview met Thomas Houthave kan teruggevonden worden op GitHub \autocite{thomashouthave}. Er staat een transcriptie van dit interview in appendix \ref{trans:thomashouthave}. Dit interview werd afgenomen op 11 april 2019.
+
+\subsubsection*{Persona}
+
+Na zijn studies aan SAE Institute Amsterdam vond Houthave al snel werk bij productiehuizen zoals Videohouse en Studio Brussel. In 2015 stichtte hij Klankwerk op waar hij nu zelf als sound designer en engineer werkt. Hij werkt met klanten zoals Ted-X, Philips en Abu Dhabi. \autocite{klankwerkbio}
+
+\subsubsection*{Interview}
+
+Volgens Houthave was er in de jaren '90 reeds een eerste digitale evolutie in de muzieksector. Veel consumenten namen snel de stap naar digitaal eens het na enige tijd ook goedkoper werd. Houthave spreekt veel over opstellingen en dat die vandaag vaak hybride zijn. Hiermee bedoelt hij dat er bij opnames een analoog mengpaneel gebruikt wordt, maar dat de opslag en bewerking zeker digitaal zijn. \autocite{thomashouthave}
+
+Omdat Houthave commercieel en op korte deadline met zijn klanten werkt, heeft hij veel baat bij digitaal. ``Sommige mensen zweren bij analoog maar tegenwoordig staat het zo dicht dat alles subjectief is,'' aldus Houthave. \autocite{thomashouthave} 
+
+Hoewel zijn professionele werkomgeving - naast de opnameapparatuur - reeds volledig digitaal is, ziet Houthave meer potentieel in software dan wat er momenteel op de markt is. Voornamelijk met het gebruik van AI. Hij spreekt in zijn interview over de \textit{Master Assistant} van Izotope Osone 8, een programma voor geluidbewerking. Het is een feature die equalization instellingen kiest voor de gebruiker op basis van een vooraf gegeven referentie track. De assistant zal proberen om het geluid van opnames zo goed mogelijk te laten klinken als de referentie track. Houthave hoopt dat de toepassing van AI op zulke, alsook op andere features meer onderzocht kan worden. \autocite{thomashouthave}
+
+\subsubsection*{Opstelling}
+
+Houthave werkt met zelfgemaakte of gekochte samples. De samples moeten weinig bewerkt worden; ze zijn al kant en klaar. Naast de standaard equalization en compressie worden er dus weinig tot geen effecten gebruikt.\newline Voor zijn projecten gebruikt Houthave ongeveer 100 tot 150 tracks. \autocite{thomashouthave}
+
+\subsection{Vagabundos (Band)}
+
+Het opgenomen interview met Vagabundos kan teruggevonden worden op GitHub \autocite{vagabundos}. Er staat een transcriptie van dit interview in appendix \ref{trans:vagabundos}. Dit interview werd afgenomen op 17 april 2019.
+
+\subsubsection*{Persona}
+
+Vagabundos is een Gentse funk band met enkele Britse en Braziliaanse roots. Ze zijn opgericht in 2014. Na de release van een album, twee EP's en meerdere internationale tours maken ze zich nu klaar om een nieuw album aan te kondigen. Het is een charismatische groep met een grote passie voor zowel hun werk als het creatieproces dat erachter zit. \autocite{vagabio}
+
+\subsubsection*{Interview}
+
+Refereer naar tabel \ref{tab:vagapeeps} voor de deelnemers van dit interview.
+
+Na vijf jaar op de planken en snel gegroeide faam heeft Vagabundos kennis gemaakt met reeds veel stijlen van productie. Ze zijn het meest bekend met de opnamestudio van Peter Boone. Zijn werkproces staat beschreven in sectie \ref{sub:boone}. Naast Boone bespreekt Vagabundos in hun interview ook nog het productieprocessen van BOMA studio in Gent en van hun eigen gitarist Saulo Soneghet. \autocite{vagabundos}
+
+BOMA studio kon niet geïnterviewd worden voor dit onderzoek. Zo staat in tabel \ref{table:correspondentie}.
+
+Vagabundos bespreekt het productieproces van Soneghet. Soneghet wordt beschreven als een perfectionist in zijn werk. Hij hangt veel belang aan postproductie. De band vertelt over hoe Soneghet een nummer zodanig veel op kan blinken tot er bijna geen human touch meer in de herkennen is. In opname neemt hij alles apart op zodat de het brongeluid zo klaar mogelijk is. \autocite{vagabundos}
+
+Volgens Vagabundos is er geen goed of slecht in opname. Iedere producer of band heeft een eigen manier. De manier is meest afhankelijk van het gewenste geluid. ``Peter is Peter and he likes another kind of sound so he records it in another kind of way,'' meldt Adam Wilson, frontman van de band. \autocite{vagabundos} Boone meldde in zijn interview al dat bepaalde genres meer baat zouden hebben bij de digitalisatie dan andere.  \autocite{peterboone}
+
+\subsubsection*{Opstelling}
+
+Het aantal tracks dat Vagabundos gebruikt voor hun live opstellingen loopt al snel op tot 20. Dat worden er 40 in opname. Adam (Woodie Bundo) Vandenhaute meldt dat hij op zijn basgitaar uitzonderlijk maximum drie actieve effecten heeft. Meestal zijn dit er maar 1 of 2.
+
+Soneghet heeft ook ervaring met productie voor metal bands. Daar gebruikt hij 50 tracks met 5 effecten op de instrumentale tracks daarvan. 
+
+Alle sporen krijgen equalization en compression.
 
 \section{Methodes voor Geluidsgeneratie en -verwerking}
 
-%\textcite{methodes} beschrijft in zijn boek vijf methodes digitale geluidsgeneratie en toepassingen ervan.
+\textcite{methodes} beschrijft in zijn artikel vijf fundamentele methodes voor geluidsgeneratie. Voor dit onderzoek werd gezocht naar een methode die voldoet aan volgende selectiecriteria.
+
+\begin{itemize}
+    \item Welke methode de muzieksector het intuïtiefst kon gebruiken.
+    \item Welke methode programmatorisch het efficientst werkt.
+    \item Welke methode het meest design capaciteiten biedt aan artiesten en sound designers.
+\end{itemize}{}
+
+De vijf fundamentele methodes beschreven door \textcite{methodes} zijn de volgende.
 
 \begin{itemize}
     \item Subtractive Synthesis
@@ -41,7 +154,7 @@ TO DO:
     \item Wavelet en Corpus-based Synthesis
 \end{itemize}{}
 
-De werking van deze methodes wordt hieronder verder toegelicht.
+De werking van deze methodes en de selectiecriteria worden hieronder verder toegelicht.
 
 \subsection{Subtractive Synthesis}
 
