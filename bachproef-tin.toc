@@ -1,87 +1,91 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Inleiding}{13}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Probleemstelling}{13}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Afbakening}{15}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Afbakening}{13}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}In-scope}{16}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.1}In-scope}{14}{subsection.1.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Out-of-scope}{16}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.2}Out-of-scope}{14}{subsection.1.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksvragen}{16}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Onderzoeksvragen}{14}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Waarom blijft de muziekindustrie analoog werken in een digitale wereld?}{16}{section*.6}% 
+\contentsline {subsubsection}{Waarom blijft de muziekindustrie analoog werken in een digitale wereld?}{14}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Is het mogelijk om digitaal te gaan?}{17}{section*.7}% 
+\contentsline {subsubsection}{Is het mogelijk om digitaal te gaan?}{15}{section*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Is het nuttig om digitaal te gaan?}{17}{section*.8}% 
+\contentsline {subsubsection}{Is het nuttig om digitaal te gaan?}{15}{section*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Is het realistisch om digitaal te gaan?}{17}{section*.9}% 
+\contentsline {subsubsection}{Is het realistisch om digitaal te gaan?}{15}{section*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Is de overstap van analoog naar digitaal mogelijk?}{17}{section*.10}% 
+\contentsline {subsubsection}{Is de overstap van analoog naar digitaal mogelijk?}{15}{section*.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Onderzoeksdoelstelling}{18}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}Onderzoeksdoelstelling}{16}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Opzet van deze bachelorproef}{18}{section.1.5}% 
+\contentsline {section}{\numberline {1.5}Opzet van deze bachelorproef}{16}{section.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{19}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Stand van zaken}{17}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Inhoud}{19}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Inhoud}{17}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Interviews}{19}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Interviews}{17}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Correspondentie}{19}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Correspondentie}{17}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Bart Vincent (Producer)}{20}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Bart Vincent (Producer)}{18}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Peter Boone (Producer en Muzikaal Artiest)}{21}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.3}Peter Boone (Producer en Muzikaal Artiest)}{19}{subsection.2.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Thomas Houthave (Sound Designer)}{22}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.4}Thomas Houthave (Sound Designer)}{20}{subsection.2.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Vagabundos (Band)}{23}{subsection.2.2.5}% 
+\contentsline {subsection}{\numberline {2.2.5}Vagabundos (Band)}{21}{subsection.2.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Methodes voor Geluidsgeneratie en -verwerking}{24}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Methodes voor Geluidsgeneratie en -verwerking}{22}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Subtractive Synthesis}{24}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.1}Subtractive Synthesis}{22}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Additive Synthesis}{25}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Additive Synthesis}{23}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Granular Synthesis}{25}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.3}Granular Synthesis}{23}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Wavelet en Corpus-based Synthesis}{26}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.4}Wavelet en Corpus-based Synthesis}{24}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wavelet Synthesis}{26}{section*.25}% 
+\contentsline {subsubsection}{Wavelet Synthesis}{24}{section*.25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Corpus-based Granular Synthesis}{26}{section*.26}% 
+\contentsline {subsubsection}{Corpus-based Granular Synthesis}{24}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Libraries}{26}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Libraries}{24}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}JASS}{26}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.1}JASS}{24}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Beads}{27}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.2}Beads}{25}{subsection.2.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}JSyn}{28}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.3}JSyn}{26}{subsection.2.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{31}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{29}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Inhoud}{31}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Inhoud}{29}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Empirische tests}{32}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Empirische tests}{30}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}De Testmachine}{32}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.1}De Testmachine}{30}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}De Code}{32}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}De Code}{30}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Keuze en Werking van de Libraries}{32}{section*.31}% 
+\contentsline {subsubsection}{Keuze en Werking van de Libraries}{30}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Opstelling van de testcases}{32}{section*.32}% 
+\contentsline {subsubsection}{Opstelling van de Testcases}{30}{section*.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Architectuur en Werking van de Test Framework}{31}{section*.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Performantiemeting van het Proces}{33}{section*.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Verwerking van de Testresultaten}{33}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Emotionele tests}{33}{section.3.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Verwerking van de Testresultaten}{33}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclusie}{35}{chapter.4}% 
 \defcounter {refsection}{0}\relax 

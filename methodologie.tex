@@ -45,15 +45,13 @@ Opslag        & Hybride Drive       & 500 GB
 \subsection{De Code}
 \label{subsec:methodologie:code}
 
-De code voor het uitvoeren van de testcases is terug te vinden in appendix \ref{ch:code}.
-
 \subsubsection{Keuze en Werking van de Libraries}
 
 Uit de interviews, besproken in sectie \ref{sec:interviews}, bleek dat de muzieksector altijd met subtractive synthesis werkt bij hun geluidsgeneratie en -verwerking. Voor de empirische tests zijn dus drie subtractive sound synthesis libraries gekozen. Zoals vermeld in sectie \ref{sec:libraries} zijn dit Beads, JASS en JSyn.
 
 Sectie \ref{subsec:vergelijkinglibraries} toont aan dat de drie libraries in essentie een gelijkaardige werking hebben. Iedere oscillator, effect en verwerkingsmodule voert een specifieke bewerking uit op een buffer. De buffers kunnen ook aan elkaar geconnecteerd worden; de output van de een buffer wordt de input van een nieuwe. Zo maakt de gebruiker een stramien van parameters die hij kan gebruiken om het geluid te modeleren.
 
-\subsubsection{Opstelling van de testcases}
+\subsubsection{Opstelling van de Testcases}
 
 De testcases zijn opgesteld aan de hand van de interviews. De interviewees werden gevraagd naar volgende specificaties van hun opstelling. 
 
@@ -104,15 +102,56 @@ Thomas Houthave & Sound designer & 6 \\ \hline
 \label{tab:parameters}
 \end{table}
 
-\subsubsection{Architectuur van de Test Framework}
+\subsubsection{Architectuur en Werking van de Test Framework}
 
+De code voor het uitvoeren van de testcases is terug te vinden in appendix \ref{ch:code}.
 
+De volgende taak was om een test framework te maken. Gegeven enkel de hierboven geformuleerde parameters moest de framework zowel library-specifieke testcases kunnen uitvoeren alsook de performantie te meten van het proces. Er werd rekening gehouden met uitbreidbaarheid zodat andere libraries makkelijk toe te voegen zijn. Daarvoor werd de template pattern toegepast.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{imgs/nomnoml.png}
+  \caption{Klasse diagram van de Template klasse}
+  \label{fig:template}
+\end{figure}
+
+Figuur \ref{fig:template} toont het klasse diagram van de abstracte en generieke \verb+Template+ klasse van de framework. Dit is de moederklasse van de library specifieke testklasses. Wanneer een klasse zich uitbreid op \verb+Template+, representeert de subklasse een sound synthesis library. De subklasse moet eerst de generieke types \verb+Voice+, \verb+Equalizer+, \verb+Compressor+ en \verb+Effect+ definiëren.
+
+\begin{itemize}
+	\item \textbf{Voice} is een oscillatorklasse uit de library.
+	\item \textbf{Equalizer} is een klasse uit de library die een inkomende buffer verwerkt. Om trouw te blijven aan de real-life testcases gebruikt men hier best een geluidsfilter. Geluidsfilters hebben karakteristieken van equalizers.
+	\item \textbf{Compressor}: idem aan \textbf{Equalizer}.
+	\item \textbf{Effect} is nog een verwerkende klasse. Deze klasse representeert een geluidseffect. Bart Vincent en Vagabundos gebruikten vaak een delay effect. \autocite{bartvincent} \autocite{vagabundos} Het wordt aangeraden om een gelijkaardig effect uit de library te kiezen.
+\end{itemize}
+
+ In de subklasse worden vervolgens de \verb+setup+-, \verb+run+-, \verb+stop+- en \verb+tearDown+-methode overgeërft. Deze worden als volgt ingevuld.
+
+\begin{itemize}
+	\item \textbf{Setup} vraagt de vier parameters uit tabel \ref{tab:parameters}. Aan de hand van deze parameters worden de \verb+Voice+-, \verb+Equalizer+-, \verb+Compressor+-, \verb+Effect+-modules correct geïnstantieerd, geconnecteerd en opgeslagen in de desbetreffende attributen uit de \verb+Template+-klasse.
+	\item De \textbf{run}-methode start alls oscillatoren en verwerkende modules die in de \verb+setup+-methode opgesteld zijn. Sound synthesis libraries starten in de meeste gevallen automatisch een nieuwe thread wanneer dit gebeurt. Als dit niet het geval is, moet de ontwikkelaar het zelf in een thread laten uitvoeren\footnote{JASS start bijvoorbeeld geen nieuwe thread wanneer SourcePlayer.start() opgeroepen wordt. Om dit op te lossen werd te PlayThread-klasse ontworpen die de SourcePlayer eenmalig start tot de halt methode opgeroepen wordt.}. Dit is belangerijk voor de performantiemeting. 
+	\item De \textbf{stop}-methode stopt de thread - en bijgevolg ook het geluid - die in de \verb+run+-methode opgeroepen is.
+	\item \textbf{TearDown} haalt de opstelling van de testcase terug uit elkaar. Voor de modules verwijderd kunnen worden uit het geheugen, moeten ze eerst veilig gedeconnecteerd worden van zowel de library als van de andere componenten. Zo kan de library terug volledig geïnitialiseerd worden voor de volgende testcase.
+\end{itemize}
+
+De uit te voeren testklassen en de parameters van de testcases worden statisch bijgehouden in de \verb+StartUp+-klasse. In de \verb+main+-methode wordt per testklasse iedere testcase uitgevoerd. Tijdens het runnen van de audio thread, wordt de performantie van het proces gemeten.
+
+\subsubsection{Performantiemeting van het Proces}
+
+Het voordeel van in een Linux-omgeving te werken is dat er geen externe library nodig is voor de performantiemeting. Alle nodige informatie kan al verkregen worden via het \verb+top+-commando. De taak vorr het afnemen van de metingen werd in de framework aan de \verb+Measurer+-klasse gegeven. In die klasse kan volgend commando teruggevonden worden.
+
+\begin{verbatim}
+	top -b -n1 -d,01 | \\
+	grep 4338 | \\
+	awk '{ if (\$9 != \"0,0\") print \$9 \" \" \$10 }'
+\end{verbatim}
+
+\verb+Top+ is een real-time commando. Wanneer het opgeroepen wordt in de terminal, worden alle processen en hun verbruik van CPU en geheugen dynamisch weergegeven. \autocite{topcommand}
+
+\subsection{Verwerking van de Testresultaten}
+\label{sec:methodologie:verwerking}
 
 \section{Emotionele tests}
 \label{sec:methodologie:emotioneletests}
-
-\section{Verwerking van de Testresultaten}
-\label{sec:methodologie:verwerking}
 
 \iffalse \lipsum[21-25] \fi
 

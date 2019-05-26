@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'bachproef-tin.aux.blg'
+[56] biber-darwin:315> INFO - === ma mei 27, 2019, 00:46:41
+[228] Utils.pm:209> ERROR - Cannot find control file 'bachproef-tin.aux.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[229] Biber.pm:114> INFO - ERRORS: 1
