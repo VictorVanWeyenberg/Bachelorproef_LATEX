@@ -132,6 +132,7 @@ Soneghet heeft ook ervaring met productie voor metal bands. Daar gebruikt hij 50
 Alle sporen krijgen equalization en compression. \autocite{vagabundos}
 
 \section{Methodes voor Geluidsgeneratie en -verwerking}
+\label{sec:methodesgeneratie}
 
 \textcite{methodes} beschrijft in zijn artikel vijf fundamentele methodes voor geluidsgeneratie. Voor dit onderzoek werd gezocht naar een methode die voldoet aan volgende selectiecriteria.
 
@@ -195,6 +196,7 @@ Deze granulaire generatiemethode haalt de grains op uit een databank - de corpus
 Corpus-based is niet toepasbaar wanneer de gebruiker nieuwe geluiden wilt maken. Niet alleen heeft het dezelfde tekortkomingen als gewone granulaire geluidsgeneratie, het heeft ook nog extra vrijheidsgraden van welke grains te kiezen uit de hele corpus.
 
 \section{Libraries}
+\label{sec:libraries}
 
 \subsection{JASS}
 
@@ -252,6 +254,7 @@ JSyn is, evenals Beads en JASS ook modulair. Het verbinden van klassen is mogeli
 Een stramien van verwerkte buffers, wordt via de \verb+LineOut+ klasse op de audio output van de machine aangesloten. Wanneer de ontwikkelaar de \verb+start+ methode oproept op zowel de \verb+LineOut+ als de \verb+Synthesizer+, weerklinkt het geluid. Het \verb+UnitInputPort+-attribuut van \verb+LineOut+ kan meerdere inputs ontvangen \autocite{jsyndocs}.
 
 \subsection*{Vergelijking van de Libraries}
+\label{subsec:vergelijkinglibraries}
 
 \begin{longtable}[c]{l|lll}
          & \textbf{Beads} & \textbf{JASS} & \textbf{JSyn} \\ \hline

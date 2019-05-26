@@ -1,0 +1,111 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {dutch}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Afbakening}{15}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}In-scope}{16}{subsection.1.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Out-of-scope}{16}{subsection.1.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Onderzoeksvragen}{16}{section.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Waarom blijft de muziekindustrie analoog werken in een digitale wereld?}{16}{section*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Is het mogelijk om digitaal te gaan?}{17}{section*.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Is het nuttig om digitaal te gaan?}{17}{section*.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Is het realistisch om digitaal te gaan?}{17}{section*.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Is de overstap van analoog naar digitaal mogelijk?}{17}{section*.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Onderzoeksdoelstelling}{18}{section.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Opzet van deze bachelorproef}{18}{section.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Stand van zaken}{19}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Inhoud}{19}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Interviews}{19}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Correspondentie}{19}{subsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Bart Vincent (Producer)}{20}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Peter Boone (Producer en Muzikaal Artiest)}{21}{subsection.2.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Thomas Houthave (Sound Designer)}{22}{subsection.2.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.5}Vagabundos (Band)}{23}{subsection.2.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Methodes voor Geluidsgeneratie en -verwerking}{24}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Subtractive Synthesis}{24}{subsection.2.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Additive Synthesis}{25}{subsection.2.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Granular Synthesis}{25}{subsection.2.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Wavelet en Corpus-based Synthesis}{26}{subsection.2.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Wavelet Synthesis}{26}{section*.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Corpus-based Granular Synthesis}{26}{section*.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Libraries}{26}{section.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}JASS}{26}{subsection.2.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Beads}{27}{subsection.2.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}JSyn}{28}{subsection.2.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodologie}{31}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Inhoud}{31}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Empirische tests}{32}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}De Testmachine}{32}{subsection.3.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}De Code}{32}{subsection.3.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Keuze en Werking van de Libraries}{32}{section*.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Opstelling van de testcases}{32}{section*.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Emotionele tests}{33}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Verwerking van de Testresultaten}{33}{section.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusie}{35}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{37}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Correspondentie}{41}{appendix.B}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Transcripties van de interviews}{45}{appendix.C}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.1}Bart Vincent (Producer)}{45}{section.C.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}Peter Boone (Producer en Muzikaal Artiest)}{48}{section.C.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.3}Thomas Houthave (Sound Designer)}{51}{section.C.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.4}Vagabundos (Band)}{55}{section.C.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Testresultaten}{63}{appendix.D}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Testresultaten van Beads}{63}{section.D.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Testresultaten van JASS}{70}{section.D.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.3}Testresultaten van JSyn}{77}{section.D.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Code van de Empirische Tests}{85}{appendix.E}% 
+\contentsfinish 

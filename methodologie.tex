@@ -13,18 +13,106 @@
 
 \section{Inhoud}
 
-Allereerst worden de \textbf{empirische tests} uitgevoerd. Deze tests gaan na of de digitalisatie mogelijk is op technisch vlak. Het doel van dit onderzoek is analoge aparatuur om te vormen in pure software zodat het toegankelijker is voor consumenten met een lager budget. Daarom werd voor de technische tests gebruik gemaakt van een standaard particulieren laptop. De code geschreven voor de uitvoering van de tests wordt samen met de specificaties van het testsysteem respec besproken in sectie \ref{sec:methodologie:empirischetests}.
+Allereerst worden de \textbf{empirische tests} uitgevoerd. Deze tests gaan na of de digitalisatie mogelijk is op technisch vlak. Het doel van dit onderzoek is analoge aparatuur om te vormen in pure software zodat het toegankelijker is voor consumenten met een lager budget. Daarom werd voor de technische tests gebruik gemaakt van een standaard particulieren laptop. De code geschreven voor de uitvoering van de tests wordt samen met de specificaties van het testsysteem respectievelijk besproken in secties \ref{subsec:methodologie:code} en \ref{subsec:methodologie:testmachine}.
 
-Zodat de testcases van de empirische tests representatief zouden zijn, werd er gezocht naar real-life usecases uit de muzieksector. Hiervoor zijn interviews afgenomen. De interviews zelf zijn besproken in sectie \ref{sec:interviews}. Hoe de empirische tests opgesteld zijn
+Zodat de testcases van de empirische tests representatief zouden zijn, werd er gezocht naar real-life usecases uit de muzieksector. Hiervoor zijn interviews afgenomen. De interviews zelf zijn besproken in sectie \ref{sec:interviews}. In de interviews werden artiesten, producers etc. gevraagd naar hun opstellingen voor zowel in opname als voor live muziek. Aan hand van die informatie werden representatieve testcases opgesteld. De opstelling van de testcases staan uitgelegd in sectie \ref{subsec:methodologie:code}. 
+
+In de interviews werd ook gevraagd of digitale varianten verwelkomd zouden worden op de markt. Dit is interessant voor software bedrijven die de muzieksector willen betreden. Als er wel degelijk vraag is naar zulke innovaties, weten zij dat het voordelig is om in die niche te gaan werken. Hoe de antwoorden van de interviewees verwerkt werden staat beschreven in sectie \ref{sec:methodologie:emotioneletests}. Dit zijn de \textbf{emotionele tests}.
 
 \section{Empirische tests}
 \label{sec:methodologie:empirischetests}
 
 \subsection{De Testmachine}
+\label{subsec:methodologie:testmachine}
+
+Er werd gezocht naar een laptop met gemiddelde specificaties voor de hedendaagse markt. Als deze laptop de testcases al aankan dan geldt hetzelfde voor andere gemiddelde particuliere laptops en zeker voor werkstations van opnamestudio's en backstage geluidstechnici.
+
+De gekozen machine is een Lenovo Ideapad Flex-14. Het modelnummer is 20308. De specificaties van de machine staan in tabel \ref{tab:specmachine}. Op de machine draaide een verse installatie van Linux Mint Sylvia.
+
+\begin{table}[]
+\begin{tabular}{lll}
+\hline
+\multicolumn{3}{l}{\textbf{Component}}                \\ \hline
+\textbf{Type} & \textbf{Naam}       & \textbf{Kracht} \\ \hline
+Processor     & Intel Core i3-4010U & 1.70GHz         \\ \hline
+RAM           & DDR3L SDRAM         & 8,00 GB         \\ \hline
+Opslag        & Hybride Drive       & 500 GB
+\end{tabular}
+\caption{Specificaties van de Testmachine}
+\label{tab:specmachine}
+\end{table}
 
 \subsection{De Code}
+\label{subsec:methodologie:code}
+
+De code voor het uitvoeren van de testcases is terug te vinden in appendix \ref{ch:code}.
+
+\subsubsection{Keuze en Werking van de Libraries}
+
+Uit de interviews, besproken in sectie \ref{sec:interviews}, bleek dat de muzieksector altijd met subtractive synthesis werkt bij hun geluidsgeneratie en -verwerking. Voor de empirische tests zijn dus drie subtractive sound synthesis libraries gekozen. Zoals vermeld in sectie \ref{sec:libraries} zijn dit Beads, JASS en JSyn.
+
+Sectie \ref{subsec:vergelijkinglibraries} toont aan dat de drie libraries in essentie een gelijkaardige werking hebben. Iedere oscillator, effect en verwerkingsmodule voert een specifieke bewerking uit op een buffer. De buffers kunnen ook aan elkaar geconnecteerd worden; de output van de een buffer wordt de input van een nieuwe. Zo maakt de gebruiker een stramien van parameters die hij kan gebruiken om het geluid te modeleren.
+
+\subsubsection{Opstelling van de testcases}
+
+De testcases zijn opgesteld aan de hand van de interviews. De interviewees werden gevraagd naar volgende specificaties van hun opstelling. 
+
+\begin{itemize}
+	\item Hoeveel audiosporen er gebruikt werden.
+	\item Op hoeveel van die sporen equalization en compressie van toepassing was.
+	\item Het aantal actieve effecten op één moment.
+	\item Op hoeveel van die sporen het stramien effecten actief staan.
+	\item Hoeveel parameters ze op één moment moeten bedienen.
+\end{itemize}
+
+Het aantal sporen werd in code vertaald naar oscillatoren. Die oscillatoren werden geconnecteerd aan equalizers en compessors. Die output werd - indien van toepassing - ook geconnecteerd aan een stramien van effecten. Alle losse outputs van oscillatoren, compressors en effecten werden aangesloten op de audio output lijn van het programma. Op die manier konden de antwoorden weergegeven worden als vier integere parameters.
+
+\begin{itemize}
+	\item Het aantal oscillatoren.
+	\item Het aantal oscillatoren dat geconnecteerd wordt aan een equalizer en compressor.
+	\item Het aantal effecten.
+	\item Het aantal oscillatoren dat - eventueel na hun connectie aan en compressor - aan een stramien van effecten geconnecteerd wordt.
+\end{itemize}
+
+Voor het opstellen van de testcases is rekening gehouden met hoeveel buffers berekend worden in het programma. De testcases worden per library uitgevoerd in stijgende volgorde van het aantal gebruikte buffers. De paramerters staan per profiel weergegeven in tabellen \ref{tab:profielen} en \ref{tab:parameters}. 
+
+\begin{table}[]
+\begin{tabular}{ll|c}
+\textbf{Interviewee} & \textbf{Profiel} & \textbf{Testcase index} \\ \hline
+- & Hobbyist & 1 \\
+Vagabundos \& Peter Boone & Live band & 2 \\
+Vagabundos \& Peter Boone & Band in opname & 3 \\
+Saulo Soneghet & Metal band in opname & 4 \\
+Bart Vincent & Jazz band in concert & 5 \\
+Thomas Houthave & Sound designer & 6 \\ \hline
+\end{tabular}
+\caption{Testcase index per profiel}
+\label{tab:profielen}
+\end{table}
+
+\begin{table}[]
+\begin{tabular}{c|cccc|c}
+\textbf{Index} & \textbf{\#Tracks} & \textbf{\#EQ en compressie} & \textbf{\#Effecten} & \textbf{\#Tracks met effecten} & \textbf{\#Buffers} \\ \hline
+1 & 4 & 4 & 0 & 0 & 4 \\
+2 & 10 & 10 & 2 & 5 & 40 \\
+3 & 25 & 25 & 2 & 10 & 95 \\
+4 & 40 & 40 & 3 & 15 & 165 \\
+5 & 50 & 50 & 5 & 20 & 250 \\
+6 & 150 & 150 & 0 & 0 & 450 
+\end{tabular}
+\caption{Testcase parameters per index}
+\label{tab:parameters}
+\end{table}
+
+\subsubsection{Architectuur van de Test Framework}
+
+
 
 \section{Emotionele tests}
+\label{sec:methodologie:emotioneletests}
+
+\section{Verwerking van de Testresultaten}
+\label{sec:methodologie:verwerking}
 
 \iffalse \lipsum[21-25] \fi
 
