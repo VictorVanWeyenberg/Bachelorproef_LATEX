@@ -87,29 +87,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Emotionele tests}{37}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{39}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Verloop van het Onderzoek}{39}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{41}{appendix.A}% 
+\contentsline {section}{\numberline {4.1}Is het mogelijk om digitaal te gaan?}{39}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Correspondentie}{45}{appendix.B}% 
+\contentsline {subsection}{\numberline {4.1.1}Geluidsfilters}{39}{subsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Transcripties van de interviews}{49}{appendix.C}% 
+\contentsline {subsection}{\numberline {4.1.2}Harmonisch rijke golven}{40}{subsection.4.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Bart Vincent (Producer)}{49}{section.C.1}% 
+\contentsline {chapter}{\numberline {5}Conclusie}{41}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Peter Boone (Producer en Muzikaal Artiest)}{52}{section.C.2}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{43}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Thomas Houthave (Sound Designer)}{55}{section.C.3}% 
+\contentsline {chapter}{\numberline {B}Correspondentie}{47}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Vagabundos (Band)}{59}{section.C.4}% 
+\contentsline {chapter}{\numberline {C}Transcripties van de interviews}{51}{appendix.C}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Testresultaten}{67}{appendix.D}% 
+\contentsline {section}{\numberline {C.1}Bart Vincent (Producer)}{51}{section.C.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Testresultaten van Beads}{67}{section.D.1}% 
+\contentsline {section}{\numberline {C.2}Peter Boone (Producer en Muzikaal Artiest)}{54}{section.C.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Testresultaten van JASS}{74}{section.D.2}% 
+\contentsline {section}{\numberline {C.3}Thomas Houthave (Sound Designer)}{57}{section.C.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Testresultaten van JSyn}{81}{section.D.3}% 
+\contentsline {section}{\numberline {C.4}Vagabundos (Band)}{61}{section.C.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Code van de Empirische Tests}{89}{appendix.E}% 
+\contentsline {chapter}{\numberline {D}Testresultaten}{69}{appendix.D}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Testresultaten van Beads}{69}{section.D.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Testresultaten van JASS}{76}{section.D.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.3}Testresultaten van JSyn}{83}{section.D.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Code van de Empirische Tests}{91}{appendix.E}% 
 \contentsfinish 

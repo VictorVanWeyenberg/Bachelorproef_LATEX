@@ -2226,6 +2226,16 @@
     <bcf:citekey order="79">mediansmoothing</bcf:citekey>
     <bcf:citekey order="80">hanning</bcf:citekey>
     <bcf:citekey order="81">median</bcf:citekey>
+    <bcf:citekey order="82">thomashouthave</bcf:citekey>
+    <bcf:citekey order="83">thomashouthave</bcf:citekey>
+    <bcf:citekey order="84">filtervseq</bcf:citekey>
+    <bcf:citekey order="85">filtervseq</bcf:citekey>
+    <bcf:citekey order="86">ffttime</bcf:citekey>
+    <bcf:citekey order="87">robbievincke</bcf:citekey>
+    <bcf:citekey order="88">jsynbiquad</bcf:citekey>
+    <bcf:citekey order="89">rbj</bcf:citekey>
+    <bcf:citekey order="90">rbj</bcf:citekey>
+    <bcf:citekey order="91">fourier</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

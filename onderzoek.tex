@@ -1,0 +1,21 @@
+\chapter{Verloop van het Onderzoek}
+\label{onderzoek}
+
+\section{Is het mogelijk om digitaal te gaan?}
+\label{onderzoeksvraag1}
+
+Deze sectie gaat na welke methode van geluidsverwerking het best toegepast wordt bij het schrijven van verwerkingsprogramma's. Uit het interview van \textcite{thomashouthave} bleek dat hij het meest intuïtief overweg gaat met subtractive synthesis. In sectie \ref{methode:subtractive} wordt besproken hoe deze methode werkt. \textcite{thomashouthave} meldt in zijn interview dat equalizers en compressors een uitwerking van subtractive synthesis zijn. De andere interviewees vermeldden ook dat zij extensief gebruik maken van equalizers en compressors. Het artikel van \textcite{filtervseq} biedt hier meer inzicht op.
+
+\subsection{Geluidsfilters}
+
+Filters maken prominent deel uit van de subtractive methode zoals in sectie \ref{methode:subtractive} beschreven staat. \textcite{filtervseq} spreekt over de gelijkenissen en verschillen tussen audio equalization en filtering. Waar equalizers bepaalde delen van het frequentiespectrum van een geluid versterken, knippen filters ze af. Beide kunnen gebaseerd worden op een Fast Fourier Transformatie (FFT)\footnote{\textit{fouriereq} leggen in hun onderzoek een toepassing van equalizers uit voor gehoorapparaten. Het idee is om een equalizer in gehoorapparaten te implementeren die bepaalde frequenties verluidt. Die frequenties worden gekozen op basis van het audiogram van de patient. Een audiogram geeft weer vanaf welke amplitude een patient een zekere frequentie kan horen. Zo worden enkel de moeilijk te horen frequenties versterkt. Dit wordt verwezenlijkt door middel van FFT.}. Het enige verschil tussen de twee is de amplitudinale impact. Een equalizer versterkt het geluid rond een zekere frequentie terwijl een filter het verzacht.
+
+Niet alleen biedt FFT meerdere toepassingen in subtractive synthesis. Het biedt ook een tijdscomplexiteit van $\mathcal{O}(n\log{}n)$ die meer acceptabel is dan die van de Discrete Fourier Transformatie (DFT) van $\mathcal{O}(n^2)$.\autocite{ffttime} Het is niet optimaal, daarom worden er reeds tal van onderzoeken gevoerd om de tijdscomplexiteit te verminderen in software aan de hand van multicore computing. \autocite{robbievincke}
+
+De bespreking van FFT is ter illustratie dat equalizers gebaseerd zijn op subtractive synthesis. Er zijn tal van toepassingen van FFT in geluidsfilters. FFT is in software typisch niet de verkozen transformatie omdat het bedoeld is voor de spectroscopie van frequenties van continue signalen. De sound synthesis libraries besproken in sectie \ref{sec:libraries} maken hier gebruik van de bilineaire tranformatie \autocite{jsynbiquad} omdat die beter toepasbaar is op de real-time verwerking van discrete signalen\footnote{\textcite{rbj} bespreekt in zijn artikel zijn algoritme voor de bilineaire transformatie.}. \textcite{rbj} toont in zijn artikel hoe verschillende filter types geïmplementeerd kunnen worden aan hand van deze transformatie.
+
+\subsection{Harmonisch rijke golven}
+
+Op eerste zicht lijkt het per definitie onmogelijk voor een computer om harmonisch rijke golven te genereren. \textcite{fourier} vertellen het verhaal van Joseph Fourier. Hij hypothiseerde in de 19\textsuperscript{de} eeuw dat alle periodieke functies beschreven kunnen worden als een oneindige som van sinusfuncties - vandaar de benoeming \textit{harmonisch rijk}. Twee jaar voor zijn dood, in 1828, werd dit bewezen door Johann Dirichlet, een wiskundige met wie Fourier correspondentie voerde. Het zijn deze periodieke golven waar subtractive synthesis zich op baseert. 
+
+Per definitie is het computationeel onmogelijk om een oneindige som van sinusfuncties te genereren.  Maar in se is dat ook niet nodig. Evenals analoge synthesizers genereren de libraries uit \ref{sec:libraries} hun harmonisch rijke golven door middel van logica van trigonometrie.
