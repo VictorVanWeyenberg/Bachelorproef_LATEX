@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.26)  28 MAY 2019 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.26)  28 MAY 2019 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2166,7 +2166,7 @@ Overfull \hbox (12.47652pt too wide) in paragraph at lines 93--102
 [][] 
  []
 
-<imgs/nomnoml.png, id=463, 689.57625pt x 376.40625pt>
+<imgs/nomnoml.png, id=466, 689.57625pt x 376.40625pt>
 File: imgs/nomnoml.png Graphic file (type png)
 <use imgs/nomnoml.png>
 Package pdftex.def Info: imgs/nomnoml.png  used on input line 114.
@@ -2240,6 +2240,9 @@ LaTeX Warning: Citation 'rbj' on page 40 undefined on input line 15.
 
 LaTeX Warning: Citation 'fourier' on page 40 undefined on input line 19.
 
+
+LaTeX Warning: Citation 'fourier' on page 40 undefined on input line 19.
+
 ) (./conclusie.tex [40]
 Hoofdstuk 5.
 
@@ -2250,7 +2253,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ])
 [42]
 B"ylage A.
-<Voorstel_2018___2019.pdf, id=532, 614.295pt x 794.97pt>
+<Voorstel_2018___2019.pdf, id=536, 614.295pt x 794.97pt>
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf>
 Package pdftex.def Info: Voorstel_2018___2019.pdf  used on input line 127.
@@ -2259,7 +2262,7 @@ File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf>
 Package pdftex.def Info: Voorstel_2018___2019.pdf  used on input line 127.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Voorstel_2018___2019.pdf, id=535, page=1, 614.295pt x 794.97pt>
+<Voorstel_2018___2019.pdf, id=539, page=1, 614.295pt x 794.97pt>
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf, page 1>
 Package pdftex.def Info: Voorstel_2018___2019.pdf , page1 used on input line 12
@@ -2289,7 +2292,7 @@ Package pdftex.def Info: Voorstel_2018___2019.pdf , page1 used on input line 12
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [44 <./Voorstel_2018___2019.pdf>]
-<Voorstel_2018___2019.pdf, id=565, page=2, 614.295pt x 794.97pt>
+<Voorstel_2018___2019.pdf, id=569, page=2, 614.295pt x 794.97pt>
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf, page 2>
 Package pdftex.def Info: Voorstel_2018___2019.pdf , page2 used on input line 12
@@ -2395,7 +2398,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [85]
 [86] [87] [88] [89]) (./code.tex [90]
 B"ylage E.
-<codepdfs/main.pdf, id=761, 597.23125pt x 844.15375pt>
+<codepdfs/main.pdf, id=765, 597.23125pt x 844.15375pt>
 File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf>
 Package pdftex.def Info: codepdfs/main.pdf  used on input line 4.
@@ -2404,7 +2407,7 @@ File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf>
 Package pdftex.def Info: codepdfs/main.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/main.pdf, id=764, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/main.pdf, id=768, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf, page 1>
 Package pdftex.def Info: codepdfs/main.pdf , page1 used on input line 4.
@@ -2429,7 +2432,7 @@ File: codepdfs/main.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/main.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [92 <./codepdfs/main.pdf>]
-<codepdfs/main.pdf, id=902, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/main.pdf, id=906, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf, page 2>
 Package pdftex.def Info: codepdfs/main.pdf , page2 used on input line 4.
@@ -2443,7 +2446,7 @@ File: codepdfs/main.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/main.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [93 <./codepdfs/main.pdf>]
-<codepdfs/measure.pdf, id=932, 597.23125pt x 844.15375pt>
+<codepdfs/measure.pdf, id=936, 597.23125pt x 844.15375pt>
 File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf>
 Package pdftex.def Info: codepdfs/measure.pdf  used on input line 5.
@@ -2452,7 +2455,7 @@ File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf>
 Package pdftex.def Info: codepdfs/measure.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/measure.pdf, id=935, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/measure.pdf, id=939, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf, page 1>
 Package pdftex.def Info: codepdfs/measure.pdf , page1 used on input line 5.
@@ -2474,7 +2477,7 @@ File: codepdfs/measure.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/measure.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [94 <./codepdfs/measure.pdf>]
-<codepdfs/measure.pdf, id=1058, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/measure.pdf, id=1062, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf, page 2>
 Package pdftex.def Info: codepdfs/measure.pdf , page2 used on input line 5.
@@ -2488,7 +2491,7 @@ File: codepdfs/measure.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/measure.pdf , page2 used on input line 5.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [95 <./codepdfs/measure.pdf>]
-<codepdfs/beads.pdf, id=1070, 597.23125pt x 844.15375pt>
+<codepdfs/beads.pdf, id=1074, 597.23125pt x 844.15375pt>
 File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf>
 Package pdftex.def Info: codepdfs/beads.pdf  used on input line 6.
@@ -2497,7 +2500,7 @@ File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf>
 Package pdftex.def Info: codepdfs/beads.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/beads.pdf, id=1073, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/beads.pdf, id=1077, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf, page 1>
 Package pdftex.def Info: codepdfs/beads.pdf , page1 used on input line 6.
@@ -2519,7 +2522,7 @@ File: codepdfs/beads.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/beads.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [96 <./codepdfs/beads.pdf>]
-<codepdfs/beads.pdf, id=1200, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/beads.pdf, id=1204, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf, page 2>
 Package pdftex.def Info: codepdfs/beads.pdf , page2 used on input line 6.
@@ -2533,7 +2536,7 @@ File: codepdfs/beads.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/beads.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [97 <./codepdfs/beads.pdf>]
-<codepdfs/jass.pdf, id=1215, 597.23125pt x 844.15375pt>
+<codepdfs/jass.pdf, id=1219, 597.23125pt x 844.15375pt>
 File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf>
 Package pdftex.def Info: codepdfs/jass.pdf  used on input line 7.
@@ -2542,7 +2545,7 @@ File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf>
 Package pdftex.def Info: codepdfs/jass.pdf  used on input line 7.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/jass.pdf, id=1218, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/jass.pdf, id=1222, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf, page 1>
 Package pdftex.def Info: codepdfs/jass.pdf , page1 used on input line 7.
@@ -2564,7 +2567,7 @@ File: codepdfs/jass.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jass.pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [98 <./codepdfs/jass.pdf>]
-<codepdfs/jass.pdf, id=1331, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/jass.pdf, id=1335, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf, page 2>
 Package pdftex.def Info: codepdfs/jass.pdf , page2 used on input line 7.
@@ -2578,7 +2581,7 @@ File: codepdfs/jass.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jass.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [99 <./codepdfs/jass.pdf>]
-<codepdfs/jsyn.pdf, id=1346, 597.23125pt x 844.15375pt>
+<codepdfs/jsyn.pdf, id=1350, 597.23125pt x 844.15375pt>
 File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf>
 Package pdftex.def Info: codepdfs/jsyn.pdf  used on input line 8.
@@ -2587,7 +2590,7 @@ File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf>
 Package pdftex.def Info: codepdfs/jsyn.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/jsyn.pdf, id=1349, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/jsyn.pdf, id=1353, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf, page 1>
 Package pdftex.def Info: codepdfs/jsyn.pdf , page1 used on input line 8.
@@ -2609,7 +2612,7 @@ File: codepdfs/jsyn.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jsyn.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [100 <./codepdfs/jsyn.pdf>]
-<codepdfs/jsyn.pdf, id=1464, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/jsyn.pdf, id=1468, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf, page 2>
 Package pdftex.def Info: codepdfs/jsyn.pdf , page2 used on input line 8.
@@ -2623,7 +2626,7 @@ File: codepdfs/jsyn.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jsyn.pdf , page2 used on input line 8.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [101 <./codepdfs/jsyn.pdf>]
-<codepdfs/io.pdf, id=1473, 597.23125pt x 844.15375pt>
+<codepdfs/io.pdf, id=1477, 597.23125pt x 844.15375pt>
 File: codepdfs/io.pdf Graphic file (type pdf)
 <use codepdfs/io.pdf>
 Package pdftex.def Info: codepdfs/io.pdf  used on input line 9.
@@ -2632,7 +2635,7 @@ File: codepdfs/io.pdf Graphic file (type pdf)
 <use codepdfs/io.pdf>
 Package pdftex.def Info: codepdfs/io.pdf  used on input line 9.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/io.pdf, id=1476, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/io.pdf, id=1480, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/io.pdf Graphic file (type pdf)
 <use codepdfs/io.pdf, page 1>
 Package pdftex.def Info: codepdfs/io.pdf , page1 used on input line 9.
@@ -2676,10 +2679,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41763 strings out of 492616
- 777440 string characters out of 6129481
- 1394359 words of memory out of 5000000
- 44526 multiletter control sequences out of 15000+600000
+ 41765 strings out of 492616
+ 777466 string characters out of 6129481
+ 1394441 words of memory out of 5000000
+ 44527 multiletter control sequences out of 15000+600000
  624594 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,67p,1128b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2698,10 +2701,10 @@ elvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic
 /uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bachproef-tin.pdf (104 pages, 1271576 bytes).
+Output written on bachproef-tin.pdf (104 pages, 1273332 bytes).
 PDF statistics:
- 1807 PDF objects out of 2073 (max. 8388607)
- 879 compressed objects within 9 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 1811 PDF objects out of 2073 (max. 8388607)
+ 882 compressed objects within 9 object streams
+ 222 named destinations out of 1000 (max. 500000)
  53833 words of extra memory for PDF output out of 61914 (max. 10000000)
 

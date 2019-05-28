@@ -16,6 +16,16 @@ De bespreking van FFT is ter illustratie dat equalizers gebaseerd zijn op subtra
 
 \subsection{Harmonisch rijke golven}
 
-Op eerste zicht lijkt het per definitie onmogelijk voor een computer om harmonisch rijke golven te genereren. \textcite{fourier} vertellen het verhaal van Joseph Fourier. Hij hypothiseerde in de 19\textsuperscript{de} eeuw dat alle periodieke functies beschreven kunnen worden als een oneindige som van sinusfuncties - vandaar de benoeming \textit{harmonisch rijk}. Twee jaar voor zijn dood, in 1828, werd dit bewezen door Johann Dirichlet, een wiskundige met wie Fourier correspondentie voerde. Het zijn deze periodieke golven waar subtractive synthesis zich op baseert. 
+Op eerste zicht lijkt het per definitie onmogelijk voor een computer om harmonisch rijke golven te genereren. \textcite{fourier} vertellen het verhaal van Joseph Fourier. Hij hypothiseerde in de 19\textsuperscript{de} eeuw dat alle periodieke functies beschreven kunnen worden als een oneindige som van sinusfuncties - vandaar de benoeming \textit{harmonisch rijk}. Twee jaar voor zijn dood, in 1828, werd dit bewezen door Johann Dirichlet, een wiskundige met wie Fourier correspondentie voerde. Het zijn deze periodieke golven waar subtractive synthesis zich op baseert. \autocite{fourier}
 
-Per definitie is het computationeel onmogelijk om een oneindige som van sinusfuncties te genereren.  Maar in se is dat ook niet nodig. Evenals analoge synthesizers genereren de libraries uit \ref{sec:libraries} hun harmonisch rijke golven door middel van logica van trigonometrie.
+\begin{figure}
+\centering
+\begin{verbatim}
+Function<double, double> square = x -> (x % f) < f / 2 ? -1 : 1;
+\end{verbatim}
+\caption{Java blokgolf generatie functie}
+\label{squarefunction}
+\end{figure}
+
+Per definitie is het computationeel onmogelijk om een oneindige som van sinusfuncties te genereren.  Maar in se is dat ook niet nodig. Evenals analoge synthesizers genereren de libraries uit \ref{sec:libraries} hun harmonisch rijke golven door middel van logica in plaats van trigonometrie. Zo kan de generatie van een harmonisch rijke functie vaak ondergebracht worden in één bewerking. Een voorbeeld: functie \ref{squarefunction} genereert een blokgolf van frequentie \verb+f+ gegeven een abcis \verb+x+.
+
