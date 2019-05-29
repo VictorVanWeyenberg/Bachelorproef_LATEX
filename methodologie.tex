@@ -104,6 +104,7 @@ Thomas Houthave & Sound designer & 6 \\ \hline
 \end{table}
 
 \subsubsection{Architectuur en Werking van de Test Framework}
+\label{subsub:testframework}
 
 De code voor het uitvoeren van de testcases is terug te vinden in appendix \ref{ch:code}.
 
@@ -170,7 +171,7 @@ Het \verb+awk+-commando filtert de \verb+%CPU+ en \verb+%Mem+ meting uit de outp
 \subsection{Verwerking van de Testresultaten}
 \label{sec:methodologie:verwerking}
 
-Per library is er een dataset van 6 testcases. Iedere testcase heeft een subset van 50 metingen. Op zo'n subset wordt eerst een dubbele \textit{moving median} uitgevoerd. \autocite{mediansmoothing} Dit is een smoothing methode waarbij twee keer een nieuwe dataset gemaakt wordt. De nieuwe dataset wordt bekomen door een item te vervangen door de mediaan van zichzelf, zijn voorganger en zijn nakomer; zoals getoond in berekening \ref{math:mediansmooth}. $y_{i}$ is het item van de nieuwe dataset en $x$ representeert de oude dataset. De eerste en laatste waarden worden overgenomen uit de oude dataset omdat berekening \ref{math:mediansmooth} niet mogelijk is op die indexen. Deze dubbele smoothing verwijdert korte periodes van extrema.
+Per library is er een dataset van 6 testcases. Iedere testcase heeft een subset van 50 metingen. Op zo'n subset wordt eerst een dubbele \textit{median three} smoothing uitgevoerd. \autocite{mediansmoothing} Dit is een smoothing methode waarbij twee keer een nieuwe dataset gemaakt wordt. De nieuwe dataset wordt bekomen door een item te vervangen door de mediaan van zichzelf, zijn voorganger en zijn nakomer; zoals getoond in berekening \ref{math:mediansmooth}. $y_{i}$ is het item van de nieuwe dataset en $x$ representeert de oude dataset. De eerste en laatste waarden worden overgenomen uit de oude dataset omdat berekening \ref{math:mediansmooth} niet mogelijk is op die indexen. Deze dubbele smoothing verwijdert korte periodes van extrema.
 
 \begin{figure}
 \centering
@@ -204,7 +205,7 @@ Na de technische bespreking van de muzikale opstellingen van de interviewees, we
 
 Op basis van deze vragen, weten we of de branche van dat profiel in de muzieksector open staat voor een digitalisatie.
 
-Er zijn door tijdsgebrek en de kleine respons (zie tabel \ref{table:correspondentie}) slechts vier interviews afgenomen. Dit is duidelijk te weinig data om een populatie te representeren.
+Er zijn door tijdsgebrek en de kleine respons (zie tabel \ref{table:correspondentie}) slechts vier interviews afgenomen. Dit is duidelijk te weinig data om een populatie te representeren. Alle interviewees spreken uit jaren vakkundige ervaring. Daarom kan hun antwoord waardevol in aanmerking genomen worden. 
 
 Iedere interviewee beeld een profiel uit zoals in tabel \ref{tab:profielen} staat. Als resultaat op de emotionele test van een profiel wordt uit belang van dit onderzoek het resultaat van de interviewee zelf genomen.
 

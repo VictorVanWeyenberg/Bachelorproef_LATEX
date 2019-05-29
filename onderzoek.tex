@@ -29,42 +29,81 @@ Function<Double, Double> square = (x) -> (x % p) < (p / 2) ? -1.0 : 1.0;
 
 Het is computationeel onmogelijk om een oneindige som van sinusfuncties te genereren.  Maar in se is dat ook niet nodig. Evenals analoge synthesizers genereren de libraries uit sectie \ref{sec:libraries} hun harmonisch rijke golven door middel van logica in plaats van goniometrie. Zo kan de generatie van een harmonisch rijke functie vaak ondergebracht worden in één bewerking. Een voorbeeld in Java: functie \ref{squarefunction} genereert een blokgolf met periode \verb+p+ gegeven een abcis \verb+x+.
 
-De resultaten van deze discrete functies zijn slechts een benadering van die van de continue Fourier series. \autocite{fourier} De geluidsresolutie van vandaag is hoog genoeg dat dit voor het menselijk gehoor nauwelijks zou mogen verschillen. \autocite{peterboone}
+De resultaten van deze discrete functies zijn slechts een benadering van die van de continue Fourier series. \autocite{fourier} De geluidsresolutie van vandaag is hoog genoeg dat dit voor het menselijk gehoor nauwelijks zou mogen verschillen. \autocite{vagabundos}
 
 \section{In het nuttig om digitaal te gaan?}
 
-De interviewees hebben elk laten weten wat zij dachten van een digitalisatie. Hun antwoorden zullen 
+De interviewees hebben elk laten weten wat zij dachten van een digitalisatie. Deze sectie bespreekt aan de hand van hun antwoorden of er in de markt vraag naar is. Het aantal interviews is te klein om een populatie te representeren. Desondanks spreken de interviewees uit jaren van vakkundige ervaring. Daarom kunnen hun antwoorden toch als representabel geacht worden.
+
+\subsection{Is het mogelijk om digitaal te gaan?}
+
+\begin{quotation}
+\textbf{Bart Vincent}: \textit{•}
+
+\textbf{Thomas Houthave}: 
+
+\textbf{Peter Boone}: 
+
+\textbf{Vagabundos}: 
+\end{quotation}
+
+
+
+\subsection{Wie heeft baat bij een digitalisering?}
+
+
+
+\subsection{Zou een digitalisering verwelkomd worden?}
+
+
 
 \section{Is het realistisch om digitaal te gaan?}
 
-Voor dit onderzoek zijn er performantietests uitgevoerd op de drie libraries die beschreven staan in sectie \ref{sec:libraries}
+Voor dit onderzoek zijn er performantiemetingen uitgevoerd op de drie libraries die beschreven staan in sectie \ref{sec:libraries}. In sectie \ref{subsec:vergelijkinglibraries} werd de gelijkenis in architectuur tussen de drie libraries vergeleken. Toch brachten ze verbazingwekkend verschillende testresultaten op. In deze sectie worden de verwerking van de resultaten besproken. 
+
+Om antwoord te kunnen geven op de onderzoeksvraag, zou slechts één van de libraries moeten slagen op deze test. Slagen voor deze test houdt in dat de library bij iedere testcase aanvaardbaar performant draait. Hou er rekening mee dat de tests op een ietwat zwakke testmachine draaiden die besproken is in sectie \ref{subsec:methodologie:testmachine}.
+
+In sectie \ref{subsub:testframework} wordt besproken hoe de testresultaten verkregen zijn. Deze zijn terug te vinden in appendix \ref{ch:testresultaten}. Vervolgens werden er twee smoothing methodes op de testresultaten uitgevoerd zoals besproken in sectie \ref{sec:methodologie:verwerking}. In appendix \ref{ch:smoothing} staan de resultaten van beide deze methodes. Hier wordt de verwerking van één testcase besproken: processor verbruik in testcase 4 van JSyn.
+
+\begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/jsyn_cpu_4}
+    		\caption{Smoothing van CPU testresultaten van testcase 4  voor JSyn}
+    		\label{jsyn_cpu_4}
+\end{figure}
+
+Figuur \ref{jsyn_cpu_4} toont de smoothing van een testcase. De rode punten zijn de originele metingen van de testcase. Als eerste wordt een dubbele \textit{median three smoothing} (M3R) toegepast; besproken in \ref{sec:methodologie:verwerking}. Dit resulteert in de groene set. M3R verwijdert plotse extrema uit het verloop van de meting. Vervolgens is op de resulterende dataset de Hanning vensterfunctie uitgevoerd. Dit leverde de blauwe puntenset op. Hanning maakt dat langere periodes van plotse extrema mooi geëgaliseerd worden.
+
+De mediaan van de dataset die resulteerde uit de Hannign functie werd genomen als resultaat van de meting. In dit voorbeeld is de mediaan \verb+48.93%+. Hieruit kunnen we concluderen dat JSyn doorgaans \verb+48.93%+ van de processorkracht gebruikt op de besproken testmachine.
 
 \begin{table}[]
 \centering
 \begin{tabular}{l|c|l|l}
-                                                    & \textbf{Case} & \textbf{Mediaan \%CPU} & \textbf{Mediaan \%Mem} \\ \hline
-\multicolumn{1}{c}{\multirow{6}{*}{\textbf{Beads}}} & 1             & 6.225601411688761      & 0.7001464725098632     \\
-\multicolumn{1}{c}{}                                & 2             & 24.11927283317216      & 0.8000000118999993     \\
-\multicolumn{1}{c}{}                                & 3             & 68.8000030412528       & 0.8000000119           \\
-\multicolumn{1}{c}{}                                & 4             & 87.50000064566882      & 1.1000000238           \\
-\multicolumn{1}{c}{}                                & 5             & 92.59304222821795      & 1.5                    \\
-\multicolumn{1}{c}{}                                & 6             & 87.5000000000006       & 1.1000000238           \\ \hline
-\multirow{6}{*}{\textbf{JASS}}                      & 1             & 93.80145182257203      & 0.8999999762           \\
-                                                    & 2             & 93.80002610686836      & 1.0                    \\
-                                                    & 3             & 99.999292099685        & 1.1000000237999974     \\
-                                                    & 4             & 100.00457007736003     & 1.2000000477           \\
-                                                    & 5             & 100.0                  & 1.2999999523           \\
-                                                    & 6             & 99.99998895617134      & 1.8999999762           \\ \hline
-\multirow{6}{*}{\textbf{JSyn}}                      & 1             & 11.423383731171057     & 2.0999999046           \\
-                                                    & 2             & 19.052681229299147     & 2.2999999522999994     \\
-                                                    & 3             & 33.30047977169544      & 2.2999999523           \\
-                                                    & 4             & 48.934125636792146     & 2.2999999523           \\
-                                                    & 5             & 68.81135542219852      & 2.2999999523           \\
-                                                    & 6             & 56.20000077991954      & 2.2999999523          \\ \hline
+\textbf{Library} & \textbf{Case} & \textbf{Mediaan \%CPU} & \textbf{Mediaan \%Mem} \\ \hline
+\multicolumn{1}{c}{\multirow{6}{*}{\textbf{Beads}}} & 1             & 6.23      & 0.70     \\
+\multicolumn{1}{c}{}                                & 2             & 24.12      & 0.80    \\
+\multicolumn{1}{c}{}                                & 3             & 68.80      & 0.80         \\
+\multicolumn{1}{c}{}                                & 4             & 87.50     & 1.10           \\
+\multicolumn{1}{c}{}                                & 5             & 92.59    & 1.50                  \\
+\multicolumn{1}{c}{}                                & 6             & 87.50    & 1.10       \\ \hline
+\multirow{6}{*}{\textbf{JASS}}                      & 1             & 93.80     & 0.90          \\
+                                                    & 2             & 93.80   & 1.00                    \\
+                                                    & 3             & 100.00        & 1.10    \\
+                                                    & 4             & 100.00     & 1.20         \\
+                                                    & 5             & 100.00                  & 1.30           \\
+                                                    & 6             & 100.00      & 1.90           \\ \hline
+\multirow{6}{*}{\textbf{JSyn}}                      & 1             & 11.42    & 2.10           \\
+                                                    & 2             & 19.05   & 2.30   \\
+                                                    & 3             & 33.30     & 2.30         \\
+                                                    & 4             & 48.93    & 2.30          \\
+                                                    & 5             & 68.81    & 2.30         \\
+                                                    & 6             & 56.20    & 2.2930       \\ \hline
 \end{tabular}
 \caption{Medianen van de verwerkte testresultaten per library per testcase.}
 \label{medians}
 \end{table}
+
+Alle berekende medianen staan in tabel \ref{medians}. Opvallend is dat JASS al snel aan 100\% processor vermogen zit. Waarom wordt duidelijk na het lezen van de broncode. Voor het opstellen van de testcases van JASS is de \verb+Sine+-klasse gebruikt want het is de enige oscillator aanwezig in de library. \textcite{jasscode} vermeldt in de broncode van de klasse dat dit een \textit{``highly inefficient implementation''} is.
 
 
 
