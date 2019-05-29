@@ -1,0 +1,95 @@
+
+\newcount\foo
+
+\chapter{Smoothing van de Testresultaten}
+\label{ch:smoothing}
+
+\section{Smoothing van CPU testresultaten voor Beads}
+
+\foo=1
+\loop
+    
+    \begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/beads_cpu_\the\foo}
+    		\caption{Smoothing van CPU testresultaten van testcase \the\foo  voor Beads}
+    \end{figure}
+  
+  \advance \foo +1
+\ifnum \foo<6
+\repeat
+
+\section{Smoothing van Mem testresultaten voor Beads}
+
+\foo=1
+\loop
+    
+    \begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/beads_mem_\the\foo}
+    		\caption{Smoothing van Mem testresultaten van testcase \the\foo  voor Beads}
+    \end{figure}
+  
+  \advance \foo +1
+\ifnum \foo<6
+\repeat
+
+\section{Smoothing van CPU testresultaten voor JASS}
+
+\foo=1
+\loop
+    
+    \begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/jass_cpu_\the\foo}
+    		\caption{Smoothing van CPU testresultaten van testcase \the\foo  voor JASS}
+    \end{figure}
+  
+  \advance \foo +1
+\ifnum \foo<6
+\repeat
+
+\section{Smoothing van Mem testresultaten voor JASS}
+
+\foo=1
+\loop
+    
+    \begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/jass_mem_\the\foo}
+    		\caption{Smoothing van Mem testresultaten van testcase \the\foo  voor JASS}
+    \end{figure}
+  
+  \advance \foo +1
+\ifnum \foo<6
+\repeat
+
+\section{Smoothing van CPU testresultaten voor JSyn}
+
+\foo=1
+\loop
+    
+    \begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/jsyn_cpu_\the\foo}
+    		\caption{Smoothing van CPU testresultaten van testcase \the\foo  voor JSyn}
+    \end{figure}
+  
+  \advance \foo +1
+\ifnum \foo<6
+\repeat
+
+\section{Smoothing van Mem testresultaten voor JSyn}
+
+\foo=1
+\loop
+    
+    \begin{figure}
+    		\centering
+    		\includegraphics[width=0.75\linewidth]{medians/jsyn_mem_\the\foo}
+    		\caption{Smoothing van Mem testresultaten van testcase \the\foo  voor JSyn}
+    \end{figure}
+  
+  \advance \foo +1
+\ifnum \foo<6
+\repeat

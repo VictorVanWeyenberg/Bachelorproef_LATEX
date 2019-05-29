@@ -12,20 +12,59 @@ Filters maken prominent deel uit van de subtractive methode zoals in sectie \ref
 
 Niet alleen biedt FFT meerdere toepassingen in subtractive synthesis. Het biedt ook een tijdscomplexiteit van $\mathcal{O}(n\log{}n)$ die meer acceptabel is dan die van de Discrete Fourier Transformatie (DFT) van $\mathcal{O}(n^2)$.\autocite{ffttime} Het is niet optimaal, daarom worden er reeds tal van onderzoeken gevoerd om de tijdscomplexiteit te verminderen in software aan de hand van multicore computing. \autocite{robbievincke}
 
-De bespreking van FFT is ter illustratie dat equalizers gebaseerd zijn op subtractive synthesis. Er zijn tal van toepassingen van FFT in geluidsfilters. FFT is in software typisch niet de verkozen transformatie omdat het bedoeld is voor de spectroscopie van frequenties van continue signalen. De sound synthesis libraries besproken in sectie \ref{sec:libraries} maken hier gebruik van de bilineaire tranformatie \autocite{jsynbiquad} omdat die beter toepasbaar is op de real-time verwerking van discrete signalen\footnote{\textcite{rbj} bespreekt in zijn artikel zijn algoritme voor de bilineaire transformatie.}. \textcite{rbj} toont in zijn artikel hoe verschillende filter types geïmplementeerd kunnen worden aan hand van deze transformatie.
+De bespreking van FFT is ter illustratie dat equalizers gebaseerd zijn op subtractive synthesis. Er zijn tal van toepassingen van FFT in geluidsfilters maar in software is het typisch niet de verkozen transformatie. Dit omdat het beter gebruikt wordt voor de spectroscopie van frequenties van continue signalen. De sound synthesis libraries besproken in sectie \ref{sec:libraries} maken hier gebruik van de bilineaire tranformatie \autocite{jsynbiquad} omdat die beter toepasbaar is op de real-time verwerking van discrete signalen\footnote{\textcite{rbj} bespreekt in zijn artikel zijn algoritme voor de bilineaire transformatie.}. \textcite{rbj} toont in zijn artikel hoe verschillende filter types geïmplementeerd kunnen worden aan hand van deze transformatie.
 
 \subsection{Harmonisch rijke golven}
 
-Op eerste zicht lijkt het per definitie onmogelijk voor een computer om harmonisch rijke golven te genereren. \textcite{fourier} vertellen het verhaal van Joseph Fourier. Hij hypothiseerde in de 19\textsuperscript{de} eeuw dat alle periodieke functies beschreven kunnen worden als een oneindige som van sinusfuncties - vandaar de benoeming \textit{harmonisch rijk}. Twee jaar voor zijn dood, in 1828, werd dit bewezen door Johann Dirichlet, een wiskundige met wie Fourier correspondentie voerde. Het zijn deze periodieke golven waar subtractive synthesis zich op baseert. \autocite{fourier}
+Op eerste zicht lijkt het per definitie onmogelijk voor een computer om harmonisch rijke golven te genereren. \textcite{fourier} vertellen het verhaal van Joseph Fourier. In de 19\textsuperscript{de} eeuw stelde hij de hypothese dat alle periodieke functies beschreven kunnen worden als een oneindige som van sinusfuncties - vandaar de benoeming \textit{harmonisch rijk}. Twee jaar voor zijn dood, in 1828, werd dit bewezen door Johann Dirichlet, een wiskundige met wie Fourier correspondentie voerde. Het zijn deze periodieke golven waar subtractive synthesis zich op baseert. \autocite{fourier}
 
 \begin{figure}
 \centering
 \begin{verbatim}
-Function<double, double> square = x -> (x % f) < f / 2 ? -1 : 1;
+Function<Double, Double> square = (x) -> (x % p) < (p / 2) ? -1.0 : 1.0;
 \end{verbatim}
 \caption{Java blokgolf generatie functie}
 \label{squarefunction}
 \end{figure}
 
-Per definitie is het computationeel onmogelijk om een oneindige som van sinusfuncties te genereren.  Maar in se is dat ook niet nodig. Evenals analoge synthesizers genereren de libraries uit \ref{sec:libraries} hun harmonisch rijke golven door middel van logica in plaats van trigonometrie. Zo kan de generatie van een harmonisch rijke functie vaak ondergebracht worden in één bewerking. Een voorbeeld: functie \ref{squarefunction} genereert een blokgolf van frequentie \verb+f+ gegeven een abcis \verb+x+.
+Het is computationeel onmogelijk om een oneindige som van sinusfuncties te genereren.  Maar in se is dat ook niet nodig. Evenals analoge synthesizers genereren de libraries uit sectie \ref{sec:libraries} hun harmonisch rijke golven door middel van logica in plaats van goniometrie. Zo kan de generatie van een harmonisch rijke functie vaak ondergebracht worden in één bewerking. Een voorbeeld in Java: functie \ref{squarefunction} genereert een blokgolf met periode \verb+p+ gegeven een abcis \verb+x+.
+
+De resultaten van deze discrete functies zijn slechts een benadering van die van de continue Fourier series. \autocite{fourier} De geluidsresolutie van vandaag is hoog genoeg dat dit voor het menselijk gehoor nauwelijks zou mogen verschillen. \autocite{peterboone}
+
+\section{In het nuttig om digitaal te gaan?}
+
+De interviewees hebben elk laten weten wat zij dachten van een digitalisatie. Hun antwoorden zullen 
+
+\section{Is het realistisch om digitaal te gaan?}
+
+Voor dit onderzoek zijn er performantietests uitgevoerd op de drie libraries die beschreven staan in sectie \ref{sec:libraries}
+
+\begin{table}[]
+\centering
+\begin{tabular}{l|c|l|l}
+                                                    & \textbf{Case} & \textbf{Mediaan \%CPU} & \textbf{Mediaan \%Mem} \\ \hline
+\multicolumn{1}{c}{\multirow{6}{*}{\textbf{Beads}}} & 1             & 6.225601411688761      & 0.7001464725098632     \\
+\multicolumn{1}{c}{}                                & 2             & 24.11927283317216      & 0.8000000118999993     \\
+\multicolumn{1}{c}{}                                & 3             & 68.8000030412528       & 0.8000000119           \\
+\multicolumn{1}{c}{}                                & 4             & 87.50000064566882      & 1.1000000238           \\
+\multicolumn{1}{c}{}                                & 5             & 92.59304222821795      & 1.5                    \\
+\multicolumn{1}{c}{}                                & 6             & 87.5000000000006       & 1.1000000238           \\ \hline
+\multirow{6}{*}{\textbf{JASS}}                      & 1             & 93.80145182257203      & 0.8999999762           \\
+                                                    & 2             & 93.80002610686836      & 1.0                    \\
+                                                    & 3             & 99.999292099685        & 1.1000000237999974     \\
+                                                    & 4             & 100.00457007736003     & 1.2000000477           \\
+                                                    & 5             & 100.0                  & 1.2999999523           \\
+                                                    & 6             & 99.99998895617134      & 1.8999999762           \\ \hline
+\multirow{6}{*}{\textbf{JSyn}}                      & 1             & 11.423383731171057     & 2.0999999046           \\
+                                                    & 2             & 19.052681229299147     & 2.2999999522999994     \\
+                                                    & 3             & 33.30047977169544      & 2.2999999523           \\
+                                                    & 4             & 48.934125636792146     & 2.2999999523           \\
+                                                    & 5             & 68.81135542219852      & 2.2999999523           \\
+                                                    & 6             & 56.20000077991954      & 2.2999999523          \\ \hline
+\end{tabular}
+\caption{Medianen van de verwerkte testresultaten per library per testcase.}
+\label{medians}
+\end{table}
+
+
 
