@@ -19,7 +19,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Java blokgolf generatie functie}}{40}{figure.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Smoothing van CPU testresultaten van testcase 4 voor JSyn}}{42}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Smoothing van CPU testresultaten van testcase 4 voor JSyn}}{43}{figure.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Trending van het CPU-verbruik.}}{45}{figure.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Trending van het geheugenverbruik.}}{45}{figure.4.4}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -35,63 +39,63 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Smoothing van CPU testresultaten van testcase 1voor Beads}}{108}{figure.F.1}% 
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Smoothing van CPU testresultaten van testcase 1voor Beads}}{110}{figure.F.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Smoothing van CPU testresultaten van testcase 2voor Beads}}{108}{figure.F.2}% 
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Smoothing van CPU testresultaten van testcase 2voor Beads}}{110}{figure.F.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.3}{\ignorespaces Smoothing van CPU testresultaten van testcase 3voor Beads}}{109}{figure.F.3}% 
+\contentsline {figure}{\numberline {F.3}{\ignorespaces Smoothing van CPU testresultaten van testcase 3voor Beads}}{111}{figure.F.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Smoothing van CPU testresultaten van testcase 4voor Beads}}{109}{figure.F.4}% 
+\contentsline {figure}{\numberline {F.4}{\ignorespaces Smoothing van CPU testresultaten van testcase 4voor Beads}}{111}{figure.F.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.5}{\ignorespaces Smoothing van CPU testresultaten van testcase 5voor Beads}}{110}{figure.F.5}% 
+\contentsline {figure}{\numberline {F.5}{\ignorespaces Smoothing van CPU testresultaten van testcase 5voor Beads}}{112}{figure.F.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.6}{\ignorespaces Smoothing van Mem testresultaten van testcase 1voor Beads}}{110}{figure.F.6}% 
+\contentsline {figure}{\numberline {F.6}{\ignorespaces Smoothing van Mem testresultaten van testcase 1voor Beads}}{112}{figure.F.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.7}{\ignorespaces Smoothing van Mem testresultaten van testcase 2voor Beads}}{111}{figure.F.7}% 
+\contentsline {figure}{\numberline {F.7}{\ignorespaces Smoothing van Mem testresultaten van testcase 2voor Beads}}{113}{figure.F.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.8}{\ignorespaces Smoothing van Mem testresultaten van testcase 3voor Beads}}{111}{figure.F.8}% 
+\contentsline {figure}{\numberline {F.8}{\ignorespaces Smoothing van Mem testresultaten van testcase 3voor Beads}}{113}{figure.F.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.9}{\ignorespaces Smoothing van Mem testresultaten van testcase 4voor Beads}}{112}{figure.F.9}% 
+\contentsline {figure}{\numberline {F.9}{\ignorespaces Smoothing van Mem testresultaten van testcase 4voor Beads}}{114}{figure.F.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.10}{\ignorespaces Smoothing van Mem testresultaten van testcase 5voor Beads}}{112}{figure.F.10}% 
+\contentsline {figure}{\numberline {F.10}{\ignorespaces Smoothing van Mem testresultaten van testcase 5voor Beads}}{114}{figure.F.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.11}{\ignorespaces Smoothing van CPU testresultaten van testcase 1voor JASS}}{113}{figure.F.11}% 
+\contentsline {figure}{\numberline {F.11}{\ignorespaces Smoothing van CPU testresultaten van testcase 1voor JASS}}{115}{figure.F.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.12}{\ignorespaces Smoothing van CPU testresultaten van testcase 2voor JASS}}{113}{figure.F.12}% 
+\contentsline {figure}{\numberline {F.12}{\ignorespaces Smoothing van CPU testresultaten van testcase 2voor JASS}}{115}{figure.F.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.13}{\ignorespaces Smoothing van CPU testresultaten van testcase 3voor JASS}}{114}{figure.F.13}% 
+\contentsline {figure}{\numberline {F.13}{\ignorespaces Smoothing van CPU testresultaten van testcase 3voor JASS}}{116}{figure.F.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.14}{\ignorespaces Smoothing van CPU testresultaten van testcase 4voor JASS}}{114}{figure.F.14}% 
+\contentsline {figure}{\numberline {F.14}{\ignorespaces Smoothing van CPU testresultaten van testcase 4voor JASS}}{116}{figure.F.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.15}{\ignorespaces Smoothing van CPU testresultaten van testcase 5voor JASS}}{115}{figure.F.15}% 
+\contentsline {figure}{\numberline {F.15}{\ignorespaces Smoothing van CPU testresultaten van testcase 5voor JASS}}{117}{figure.F.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.16}{\ignorespaces Smoothing van Mem testresultaten van testcase 1voor JASS}}{115}{figure.F.16}% 
+\contentsline {figure}{\numberline {F.16}{\ignorespaces Smoothing van Mem testresultaten van testcase 1voor JASS}}{117}{figure.F.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.17}{\ignorespaces Smoothing van Mem testresultaten van testcase 2voor JASS}}{116}{figure.F.17}% 
+\contentsline {figure}{\numberline {F.17}{\ignorespaces Smoothing van Mem testresultaten van testcase 2voor JASS}}{118}{figure.F.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.18}{\ignorespaces Smoothing van Mem testresultaten van testcase 3voor JASS}}{116}{figure.F.18}% 
+\contentsline {figure}{\numberline {F.18}{\ignorespaces Smoothing van Mem testresultaten van testcase 3voor JASS}}{118}{figure.F.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.19}{\ignorespaces Smoothing van Mem testresultaten van testcase 4voor JASS}}{117}{figure.F.19}% 
+\contentsline {figure}{\numberline {F.19}{\ignorespaces Smoothing van Mem testresultaten van testcase 4voor JASS}}{119}{figure.F.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.20}{\ignorespaces Smoothing van Mem testresultaten van testcase 5voor JASS}}{117}{figure.F.20}% 
+\contentsline {figure}{\numberline {F.20}{\ignorespaces Smoothing van Mem testresultaten van testcase 5voor JASS}}{119}{figure.F.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.21}{\ignorespaces Smoothing van CPU testresultaten van testcase 1voor JSyn}}{118}{figure.F.21}% 
+\contentsline {figure}{\numberline {F.21}{\ignorespaces Smoothing van CPU testresultaten van testcase 1voor JSyn}}{120}{figure.F.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.22}{\ignorespaces Smoothing van CPU testresultaten van testcase 2voor JSyn}}{118}{figure.F.22}% 
+\contentsline {figure}{\numberline {F.22}{\ignorespaces Smoothing van CPU testresultaten van testcase 2voor JSyn}}{120}{figure.F.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.23}{\ignorespaces Smoothing van CPU testresultaten van testcase 3voor JSyn}}{119}{figure.F.23}% 
+\contentsline {figure}{\numberline {F.23}{\ignorespaces Smoothing van CPU testresultaten van testcase 3voor JSyn}}{121}{figure.F.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.24}{\ignorespaces Smoothing van CPU testresultaten van testcase 4voor JSyn}}{119}{figure.F.24}% 
+\contentsline {figure}{\numberline {F.24}{\ignorespaces Smoothing van CPU testresultaten van testcase 4voor JSyn}}{121}{figure.F.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.25}{\ignorespaces Smoothing van CPU testresultaten van testcase 5voor JSyn}}{120}{figure.F.25}% 
+\contentsline {figure}{\numberline {F.25}{\ignorespaces Smoothing van CPU testresultaten van testcase 5voor JSyn}}{122}{figure.F.25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.26}{\ignorespaces Smoothing van Mem testresultaten van testcase 1voor JSyn}}{120}{figure.F.26}% 
+\contentsline {figure}{\numberline {F.26}{\ignorespaces Smoothing van Mem testresultaten van testcase 1voor JSyn}}{122}{figure.F.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.27}{\ignorespaces Smoothing van Mem testresultaten van testcase 2voor JSyn}}{121}{figure.F.27}% 
+\contentsline {figure}{\numberline {F.27}{\ignorespaces Smoothing van Mem testresultaten van testcase 2voor JSyn}}{123}{figure.F.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.28}{\ignorespaces Smoothing van Mem testresultaten van testcase 3voor JSyn}}{121}{figure.F.28}% 
+\contentsline {figure}{\numberline {F.28}{\ignorespaces Smoothing van Mem testresultaten van testcase 3voor JSyn}}{123}{figure.F.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.29}{\ignorespaces Smoothing van Mem testresultaten van testcase 4voor JSyn}}{122}{figure.F.29}% 
+\contentsline {figure}{\numberline {F.29}{\ignorespaces Smoothing van Mem testresultaten van testcase 4voor JSyn}}{124}{figure.F.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {F.30}{\ignorespaces Smoothing van Mem testresultaten van testcase 5voor JSyn}}{122}{figure.F.30}% 
+\contentsline {figure}{\numberline {F.30}{\ignorespaces Smoothing van Mem testresultaten van testcase 5voor JSyn}}{124}{figure.F.30}% 
 \contentsfinish 

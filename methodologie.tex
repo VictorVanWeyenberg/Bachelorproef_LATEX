@@ -189,7 +189,7 @@ $h_{i} = (y_{i-1} + 2 \ast y_{i} + y_{i+1}) \div 4$
 \label{math:hanningformule}
 \end{figure}
 
-Van de resulterende dataset wordt de mediaan genomen als resultaat voor de testcase. De mediaan is niet gevoelig aan extrema en geeft een betere representatie van de meer frequente metingen in een dataset. \autocite{median} Van de medianen wordt een trendlijn berekend. Zolang de richtingscoëfficient van de trendlijn van de testresultaten niet hoger ligt dan die van het aantal buffers in de input parameters uit tabel \ref{tab:parameters}, kunnen we zeggen dat het technisch aanvaardbaar is om een overstap naar digitaal te maken. 
+Van de resulterende dataset wordt de mediaan genomen als resultaat voor de testcase. De mediaan is niet gevoelig aan extrema en geeft een betere representatie van de metingen in een dataset. \autocite{median} Van de medianen wordt een trendlijn berekend. De input parameters in tabel \ref{tab:parameters} zijn zodanig opgesteld dat het aantal buffers een exponentieel verloop benaderen. Zolang de trendlijn van de testresultaten binnen het domein van het aantal buffers niet te groot wordt, kunnen we zeggen dat het technisch aanvaardbaar is om een overstap naar digitaal te maken. ``Te groot'' is hier afhankelijk van de meting. Men zou graag, bij het overstijgen van de 6\textsuperscript{de} testcase, nog een brede marge hebben vooraleer de belasting van de processor 100\% bereikt.
 
 \section{Emotionele tests}
 \label{sec:methodologie:emotioneletests}
