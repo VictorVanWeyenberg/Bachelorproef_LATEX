@@ -103,7 +103,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Zou een digitalisering verwelkomd worden?}{42}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Is het realistisch om digitaal te gaan?}{42}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Is het realistisch om digitaal te gaan?}{43}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Uitwerking van een Testcase}{43}{subsection.4.3.1}% 
 \defcounter {refsection}{0}\relax 
@@ -115,13 +115,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Is het nuttig om digitaal te gaan?}{47}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Is het realistisch om digitaal te gaan?}{47}{section.5.3}% 
+\contentsline {section}{\numberline {5.3}Is het realistisch om digitaal te gaan?}{48}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Wat wilt dit zeggen voor ontwikkelaars?}{47}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}Wat wilt dit zeggen voor ontwikkelaars?}{48}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Toekomstig Onderzoek}{47}{section.5.5}% 
+\contentsline {section}{\numberline {5.5}Toekomstig Onderzoek}{48}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Prototypering}{47}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.1}Prototypering}{48}{subsection.5.5.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{49}{appendix.A}% 
 \defcounter {refsection}{0}\relax 

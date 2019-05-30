@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.26)  30 MAY 2019 01:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.26)  30 MAY 2019 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1714,13 +1714,16 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
-)
-(./samenvatting.tex [3] [4
 
-])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [3])
+(./samenvatting.tex [4])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+
+]
 [6] (./bachproef-tin.toc
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 4.
@@ -1743,7 +1746,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-Underfull \vbox (badness 3375) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
 \tf@toc=\write7
@@ -2030,117 +2033,117 @@ LaTeX Warning: Citation 'additive' on page 25 undefined on input line 169.
 LaTeX Warning: Citation 'harmonics' on page 25 undefined on input line 171.
 
 
-LaTeX Warning: Citation 'granular' on page 25 undefined on input line 175.
+LaTeX Warning: Citation 'granular' on page 25 undefined on input line 176.
 
 
-LaTeX Warning: Citation 'granular' on page 25 undefined on input line 177.
+LaTeX Warning: Citation 'granular' on page 25 undefined on input line 178.
 
 
-LaTeX Warning: Citation 'granular' on page 25 undefined on input line 179.
+LaTeX Warning: Citation 'granular' on page 25 undefined on input line 180.
 
 [25]
 
-LaTeX Warning: Citation 'wavelet' on page 26 undefined on input line 187.
+LaTeX Warning: Citation 'wavelet' on page 26 undefined on input line 188.
 
 
-LaTeX Warning: Citation 'wavelet' on page 26 undefined on input line 190.
+LaTeX Warning: Citation 'wavelet' on page 26 undefined on input line 191.
 
 
-LaTeX Warning: Citation 'methodes' on page 26 undefined on input line 195.
+LaTeX Warning: Citation 'methodes' on page 26 undefined on input line 196.
 
 
-LaTeX Warning: Citation 'jass' on page 26 undefined on input line 204.
+LaTeX Warning: Citation 'jass' on page 26 undefined on input line 205.
 
 
-LaTeX Warning: Citation 'jass' on page 26 undefined on input line 206.
+LaTeX Warning: Citation 'jass' on page 26 undefined on input line 207.
 
 
-LaTeX Warning: Citation 'jass' on page 26 undefined on input line 206.
+LaTeX Warning: Citation 'jass' on page 26 undefined on input line 207.
 
 [26]
 
-LaTeX Warning: Citation 'jasscode' on page 27 undefined on input line 211.
+LaTeX Warning: Citation 'jasscode' on page 27 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'jass' on page 27 undefined on input line 213.
+LaTeX Warning: Citation 'jass' on page 27 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'jass' on page 27 undefined on input line 213.
+LaTeX Warning: Citation 'jass' on page 27 undefined on input line 214.
 
 
-LaTeX Warning: Citation 'bartvincent' on page 27 undefined on input line 215.
+LaTeX Warning: Citation 'bartvincent' on page 27 undefined on input line 216.
 
 
-LaTeX Warning: Citation 'jass' on page 27 undefined on input line 217.
+LaTeX Warning: Citation 'jass' on page 27 undefined on input line 218.
 
 
-LaTeX Warning: Citation 'jass' on page 27 undefined on input line 219.
+LaTeX Warning: Citation 'jass' on page 27 undefined on input line 220.
 
 
-LaTeX Warning: Citation 'beads' on page 27 undefined on input line 223.
+LaTeX Warning: Citation 'beads' on page 27 undefined on input line 224.
 
 
-LaTeX Warning: Citation 'beads' on page 27 undefined on input line 225.
+LaTeX Warning: Citation 'beads' on page 27 undefined on input line 226.
 
 
-LaTeX Warning: Citation 'beads2' on page 27 undefined on input line 227.
+LaTeX Warning: Citation 'beads2' on page 27 undefined on input line 228.
 
 
-LaTeX Warning: Citation 'beadsdocs' on page 27 undefined on input line 231.
+LaTeX Warning: Citation 'beadsdocs' on page 27 undefined on input line 232.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
 
-LaTeX Warning: Citation 'beadsdocs' on page 28 undefined on input line 233.
+LaTeX Warning: Citation 'beadsdocs' on page 28 undefined on input line 234.
 
 
-LaTeX Warning: Citation 'beadsdocs' on page 28 undefined on input line 235.
+LaTeX Warning: Citation 'beadsdocs' on page 28 undefined on input line 236.
 
 
-LaTeX Warning: Citation 'beadsdocs' on page 28 undefined on input line 237.
+LaTeX Warning: Citation 'beadsdocs' on page 28 undefined on input line 238.
 
 
-Overfull \hbox (13.69293pt too wide) in paragraph at lines 237--238
+Overfull \hbox (13.69293pt too wide) in paragraph at lines 238--239
 []\T1/ptm/m/n/12 (-20) Om [][]\T1/cmtt/m/n/12 UGen[]\T1/ptm/m/n/12 (-20) 's te 
 ho-ren, moe-ten ze aan-ge-slo-ten wor-den op de [][]\T1/cmtt/m/n/12 AudioContex
 t[]\T1/ptm/m/n/12 (-20) . De [][]\T1/cmtt/m/n/12 AudioContext
  []
 
 
-LaTeX Warning: Citation 'jsyn' on page 28 undefined on input line 241.
+LaTeX Warning: Citation 'jsyn' on page 28 undefined on input line 242.
 
 
-LaTeX Warning: Citation 'jsyngit' on page 28 undefined on input line 241.
+LaTeX Warning: Citation 'jsyngit' on page 28 undefined on input line 242.
 
 
-LaTeX Warning: Citation 'jsyn' on page 28 undefined on input line 243.
+LaTeX Warning: Citation 'jsyn' on page 28 undefined on input line 244.
 
 
-LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 247.
+LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 248.
 
 
-LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 249.
+LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 250.
 
 
-LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 251.
+LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 252.
 
 
-LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 253.
+LaTeX Warning: Citation 'jsyndocs' on page 28 undefined on input line 254.
 
 [28]
 
-LaTeX Warning: Citation 'jsyndocs' on page 29 undefined on input line 255.
+LaTeX Warning: Citation 'jsyndocs' on page 29 undefined on input line 256.
 
 
-LaTeX Warning: Citation 'jsyndocs' on page 29 undefined on input line 273.
+LaTeX Warning: Citation 'jsyndocs' on page 29 undefined on input line 274.
 
 
-LaTeX Warning: Citation 'vagabundos' on page 29 undefined on input line 275.
+LaTeX Warning: Citation 'vagabundos' on page 29 undefined on input line 276.
 
 
-LaTeX Warning: Citation 'modular' on page 29 undefined on input line 275.
+LaTeX Warning: Citation 'modular' on page 29 undefined on input line 276.
 
 ) (./methodologie.tex [29] [30
 
@@ -2168,7 +2171,7 @@ Overfull \hbox (12.47652pt too wide) in paragraph at lines 93--102
 [][] 
  []
 
-<imgs/nomnoml.png, id=617, 689.57625pt x 376.40625pt>
+<imgs/nomnoml.png, id=626, 689.57625pt x 376.40625pt>
 File: imgs/nomnoml.png Graphic file (type png)
 <use imgs/nomnoml.png>
 Package pdftex.def Info: imgs/nomnoml.png  used on input line 115.
@@ -2301,51 +2304,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Citation 'thomashouthave' on page 42 undefined on input line 54.
 
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42]
-<medians/jsyn_cpu_4.jpeg, id=695, 803.0pt x 602.25pt>
+[42]
+<medians/jsyn_cpu_4.jpeg, id=704, 803.0pt x 602.25pt>
 File: medians/jsyn_cpu_4.jpeg Graphic file (type jpg)
 <use medians/jsyn_cpu_4.jpeg>
-Package pdftex.def Info: medians/jsyn_cpu_4.jpeg  used on input line 75.
+Package pdftex.def Info: medians/jsyn_cpu_4.jpeg  used on input line 86.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-
+ [43 <./medians/jsyn_cpu_4.jpeg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 84.
+               Default added (so using `tbp') on input line 95.
 
 
-LaTeX Warning: Citation 'jasscode' on page 43 undefined on input line 111.
+LaTeX Warning: Citation 'jasscode' on page 44 undefined on input line 122.
 
-<medians/trendcpu.jpeg, id=699, 702.625pt x 501.875pt>
+<medians/trendcpu.jpeg, id=712, 702.625pt x 501.875pt>
 File: medians/trendcpu.jpeg Graphic file (type jpg)
 <use medians/trendcpu.jpeg>
-Package pdftex.def Info: medians/trendcpu.jpeg  used on input line 117.
+Package pdftex.def Info: medians/trendcpu.jpeg  used on input line 128.
 (pdftex.def)             Requested size: 320.0935pt x 228.64447pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43 <./medians/jsyn_cpu_4.jpeg>]
-<medians/trendmem.jpeg, id=704, 702.625pt x 501.875pt>
+<medians/trendmem.jpeg, id=713, 702.625pt x 501.875pt>
 File: medians/trendmem.jpeg Graphic file (type jpg)
 <use medians/trendmem.jpeg>
-Package pdftex.def Info: medians/trendmem.jpeg  used on input line 124.
+Package pdftex.def Info: medians/trendmem.jpeg  used on input line 135.
 (pdftex.def)             Requested size: 320.0935pt x 228.64447pt.
-) (./conclusie.tex [44] [45 <./medians/trendcpu.jpeg> <./medians/trendmem.jpeg>
-] [46
-
-]
+[44] [45 <./medians/trendcpu.jpeg> <./medians/trendmem.jpeg>]) (./conclusie.tex
+[46]
 Hoofdstuk 5.
 
+LaTeX Warning: Citation 'thomashouthave' on page 47 undefined on input line 21.
+
+
+
+LaTeX Warning: Citation 'granular' on page 47 undefined on input line 21.
+
+
 LaTeX Warning: Reference `onderzoeksvraag2' on page 47 undefined on input line 
-23.
+27.
 
-) [47] [48
+[47
 
-]
+]) [48]
 B"ylage A.
-<Voorstel_2018___2019.pdf, id=736, 614.295pt x 794.97pt>
+<Voorstel_2018___2019.pdf, id=741, 614.295pt x 794.97pt>
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf>
 Package pdftex.def Info: Voorstel_2018___2019.pdf  used on input line 127.
@@ -2354,7 +2355,7 @@ File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf>
 Package pdftex.def Info: Voorstel_2018___2019.pdf  used on input line 127.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Voorstel_2018___2019.pdf, id=739, page=1, 614.295pt x 794.97pt>
+<Voorstel_2018___2019.pdf, id=744, page=1, 614.295pt x 794.97pt>
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf, page 1>
 Package pdftex.def Info: Voorstel_2018___2019.pdf , page1 used on input line 12
@@ -2365,7 +2366,9 @@ File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 Package pdftex.def Info: Voorstel_2018___2019.pdf , page1 used on input line 12
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[49]
+[49
+
+]
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf, page 1>
 Package pdftex.def Info: Voorstel_2018___2019.pdf , page1 used on input line 12
@@ -2382,7 +2385,7 @@ Package pdftex.def Info: Voorstel_2018___2019.pdf , page1 used on input line 12
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [50 <./Voorstel_2018___2019.pdf>]
-<Voorstel_2018___2019.pdf, id=769, page=2, 614.295pt x 794.97pt>
+<Voorstel_2018___2019.pdf, id=774, page=2, 614.295pt x 794.97pt>
 File: Voorstel_2018___2019.pdf Graphic file (type pdf)
 <use Voorstel_2018___2019.pdf, page 2>
 Package pdftex.def Info: Voorstel_2018___2019.pdf , page2 used on input line 12
@@ -2457,7 +2460,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
-Underfull \vbox (badness 1448) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2479,7 +2482,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 B"ylage D.
-<codepdfs/main.pdf, id=872, 597.23125pt x 844.15375pt>
+<codepdfs/main.pdf, id=877, 597.23125pt x 844.15375pt>
 File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf>
 Package pdftex.def Info: codepdfs/main.pdf  used on input line 4.
@@ -2488,7 +2491,7 @@ File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf>
 Package pdftex.def Info: codepdfs/main.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/main.pdf, id=875, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/main.pdf, id=880, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf, page 1>
 Package pdftex.def Info: codepdfs/main.pdf , page1 used on input line 4.
@@ -2511,7 +2514,7 @@ File: codepdfs/main.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/main.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [76 <./codepdfs/main.pdf>]
-<codepdfs/main.pdf, id=1013, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/main.pdf, id=1018, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/main.pdf Graphic file (type pdf)
 <use codepdfs/main.pdf, page 2>
 Package pdftex.def Info: codepdfs/main.pdf , page2 used on input line 4.
@@ -2525,7 +2528,7 @@ File: codepdfs/main.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/main.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [77 <./codepdfs/main.pdf>]
-<codepdfs/measure.pdf, id=1044, 597.23125pt x 844.15375pt>
+<codepdfs/measure.pdf, id=1049, 597.23125pt x 844.15375pt>
 File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf>
 Package pdftex.def Info: codepdfs/measure.pdf  used on input line 5.
@@ -2534,7 +2537,7 @@ File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf>
 Package pdftex.def Info: codepdfs/measure.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/measure.pdf, id=1047, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/measure.pdf, id=1052, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf, page 1>
 Package pdftex.def Info: codepdfs/measure.pdf , page1 used on input line 5.
@@ -2556,7 +2559,7 @@ File: codepdfs/measure.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/measure.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [78 <./codepdfs/measure.pdf>]
-<codepdfs/measure.pdf, id=1170, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/measure.pdf, id=1175, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/measure.pdf Graphic file (type pdf)
 <use codepdfs/measure.pdf, page 2>
 Package pdftex.def Info: codepdfs/measure.pdf , page2 used on input line 5.
@@ -2570,7 +2573,7 @@ File: codepdfs/measure.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/measure.pdf , page2 used on input line 5.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [79 <./codepdfs/measure.pdf>]
-<codepdfs/beads.pdf, id=1181, 597.23125pt x 844.15375pt>
+<codepdfs/beads.pdf, id=1186, 597.23125pt x 844.15375pt>
 File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf>
 Package pdftex.def Info: codepdfs/beads.pdf  used on input line 6.
@@ -2579,7 +2582,7 @@ File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf>
 Package pdftex.def Info: codepdfs/beads.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/beads.pdf, id=1184, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/beads.pdf, id=1189, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf, page 1>
 Package pdftex.def Info: codepdfs/beads.pdf , page1 used on input line 6.
@@ -2601,7 +2604,7 @@ File: codepdfs/beads.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/beads.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [80 <./codepdfs/beads.pdf>]
-<codepdfs/beads.pdf, id=1311, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/beads.pdf, id=1316, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/beads.pdf Graphic file (type pdf)
 <use codepdfs/beads.pdf, page 2>
 Package pdftex.def Info: codepdfs/beads.pdf , page2 used on input line 6.
@@ -2615,7 +2618,7 @@ File: codepdfs/beads.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/beads.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [81 <./codepdfs/beads.pdf>]
-<codepdfs/jass.pdf, id=1326, 597.23125pt x 844.15375pt>
+<codepdfs/jass.pdf, id=1331, 597.23125pt x 844.15375pt>
 File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf>
 Package pdftex.def Info: codepdfs/jass.pdf  used on input line 7.
@@ -2624,7 +2627,7 @@ File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf>
 Package pdftex.def Info: codepdfs/jass.pdf  used on input line 7.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/jass.pdf, id=1329, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/jass.pdf, id=1334, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf, page 1>
 Package pdftex.def Info: codepdfs/jass.pdf , page1 used on input line 7.
@@ -2646,7 +2649,7 @@ File: codepdfs/jass.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jass.pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [82 <./codepdfs/jass.pdf>]
-<codepdfs/jass.pdf, id=1443, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/jass.pdf, id=1448, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/jass.pdf Graphic file (type pdf)
 <use codepdfs/jass.pdf, page 2>
 Package pdftex.def Info: codepdfs/jass.pdf , page2 used on input line 7.
@@ -2660,7 +2663,7 @@ File: codepdfs/jass.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jass.pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [83 <./codepdfs/jass.pdf>]
-<codepdfs/jsyn.pdf, id=1459, 597.23125pt x 844.15375pt>
+<codepdfs/jsyn.pdf, id=1464, 597.23125pt x 844.15375pt>
 File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf>
 Package pdftex.def Info: codepdfs/jsyn.pdf  used on input line 8.
@@ -2669,7 +2672,7 @@ File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf>
 Package pdftex.def Info: codepdfs/jsyn.pdf  used on input line 8.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/jsyn.pdf, id=1462, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/jsyn.pdf, id=1467, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf, page 1>
 Package pdftex.def Info: codepdfs/jsyn.pdf , page1 used on input line 8.
@@ -2691,7 +2694,7 @@ File: codepdfs/jsyn.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jsyn.pdf , page1 used on input line 8.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [84 <./codepdfs/jsyn.pdf>]
-<codepdfs/jsyn.pdf, id=1576, page=2, 597.23125pt x 844.15375pt>
+<codepdfs/jsyn.pdf, id=1581, page=2, 597.23125pt x 844.15375pt>
 File: codepdfs/jsyn.pdf Graphic file (type pdf)
 <use codepdfs/jsyn.pdf, page 2>
 Package pdftex.def Info: codepdfs/jsyn.pdf , page2 used on input line 8.
@@ -2705,7 +2708,7 @@ File: codepdfs/jsyn.pdf Graphic file (type pdf)
 Package pdftex.def Info: codepdfs/jsyn.pdf , page2 used on input line 8.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
  [85 <./codepdfs/jsyn.pdf>]
-<codepdfs/io.pdf, id=1584, 597.23125pt x 844.15375pt>
+<codepdfs/io.pdf, id=1589, 597.23125pt x 844.15375pt>
 File: codepdfs/io.pdf Graphic file (type pdf)
 <use codepdfs/io.pdf>
 Package pdftex.def Info: codepdfs/io.pdf  used on input line 9.
@@ -2714,7 +2717,7 @@ File: codepdfs/io.pdf Graphic file (type pdf)
 <use codepdfs/io.pdf>
 Package pdftex.def Info: codepdfs/io.pdf  used on input line 9.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
-<codepdfs/io.pdf, id=1587, page=1, 597.23125pt x 844.15375pt>
+<codepdfs/io.pdf, id=1592, page=1, 597.23125pt x 844.15375pt>
 File: codepdfs/io.pdf Graphic file (type pdf)
 <use codepdfs/io.pdf, page 1>
 Package pdftex.def Info: codepdfs/io.pdf , page1 used on input line 9.
@@ -2751,117 +2754,117 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \foo=\count486
  [108]
 B"ylage F.
-<medians/beads_cpu_1.jpeg, id=1769, 803.0pt x 602.25pt>
+<medians/beads_cpu_1.jpeg, id=1774, 803.0pt x 602.25pt>
 File: medians/beads_cpu_1.jpeg Graphic file (type jpg)
 <use medians/beads_cpu_1.jpeg>
 Package pdftex.def Info: medians/beads_cpu_1.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_cpu_2.jpeg, id=1770, 803.0pt x 602.25pt>
+<medians/beads_cpu_2.jpeg, id=1775, 803.0pt x 602.25pt>
 File: medians/beads_cpu_2.jpeg Graphic file (type jpg)
 <use medians/beads_cpu_2.jpeg>
 Package pdftex.def Info: medians/beads_cpu_2.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_cpu_3.jpeg, id=1771, 803.0pt x 602.25pt>
+<medians/beads_cpu_3.jpeg, id=1776, 803.0pt x 602.25pt>
 File: medians/beads_cpu_3.jpeg Graphic file (type jpg)
 <use medians/beads_cpu_3.jpeg>
 Package pdftex.def Info: medians/beads_cpu_3.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_cpu_4.jpeg, id=1772, 803.0pt x 602.25pt>
+<medians/beads_cpu_4.jpeg, id=1777, 803.0pt x 602.25pt>
 File: medians/beads_cpu_4.jpeg Graphic file (type jpg)
 <use medians/beads_cpu_4.jpeg>
 Package pdftex.def Info: medians/beads_cpu_4.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_cpu_5.jpeg, id=1773, 803.0pt x 602.25pt>
+<medians/beads_cpu_5.jpeg, id=1778, 803.0pt x 602.25pt>
 File: medians/beads_cpu_5.jpeg Graphic file (type jpg)
 <use medians/beads_cpu_5.jpeg>
 Package pdftex.def Info: medians/beads_cpu_5.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_mem_1.jpeg, id=1774, 803.0pt x 602.25pt>
+<medians/beads_mem_1.jpeg, id=1779, 803.0pt x 602.25pt>
 File: medians/beads_mem_1.jpeg Graphic file (type jpg)
 <use medians/beads_mem_1.jpeg>
 Package pdftex.def Info: medians/beads_mem_1.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_mem_2.jpeg, id=1775, 803.0pt x 602.25pt>
+<medians/beads_mem_2.jpeg, id=1780, 803.0pt x 602.25pt>
 File: medians/beads_mem_2.jpeg Graphic file (type jpg)
 <use medians/beads_mem_2.jpeg>
 Package pdftex.def Info: medians/beads_mem_2.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_mem_3.jpeg, id=1776, 803.0pt x 602.25pt>
+<medians/beads_mem_3.jpeg, id=1781, 803.0pt x 602.25pt>
 File: medians/beads_mem_3.jpeg Graphic file (type jpg)
 <use medians/beads_mem_3.jpeg>
 Package pdftex.def Info: medians/beads_mem_3.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_mem_4.jpeg, id=1777, 803.0pt x 602.25pt>
+<medians/beads_mem_4.jpeg, id=1782, 803.0pt x 602.25pt>
 File: medians/beads_mem_4.jpeg Graphic file (type jpg)
 <use medians/beads_mem_4.jpeg>
 Package pdftex.def Info: medians/beads_mem_4.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/beads_mem_5.jpeg, id=1778, 803.0pt x 602.25pt>
+<medians/beads_mem_5.jpeg, id=1783, 803.0pt x 602.25pt>
 File: medians/beads_mem_5.jpeg Graphic file (type jpg)
 <use medians/beads_mem_5.jpeg>
 Package pdftex.def Info: medians/beads_mem_5.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_cpu_1.jpeg, id=1779, 803.0pt x 602.25pt>
+<medians/jass_cpu_1.jpeg, id=1784, 803.0pt x 602.25pt>
 File: medians/jass_cpu_1.jpeg Graphic file (type jpg)
 <use medians/jass_cpu_1.jpeg>
 Package pdftex.def Info: medians/jass_cpu_1.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_cpu_2.jpeg, id=1780, 803.0pt x 602.25pt>
+<medians/jass_cpu_2.jpeg, id=1785, 803.0pt x 602.25pt>
 File: medians/jass_cpu_2.jpeg Graphic file (type jpg)
 <use medians/jass_cpu_2.jpeg>
 Package pdftex.def Info: medians/jass_cpu_2.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_cpu_3.jpeg, id=1781, 803.0pt x 602.25pt>
+<medians/jass_cpu_3.jpeg, id=1786, 803.0pt x 602.25pt>
 File: medians/jass_cpu_3.jpeg Graphic file (type jpg)
 <use medians/jass_cpu_3.jpeg>
 Package pdftex.def Info: medians/jass_cpu_3.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_cpu_4.jpeg, id=1782, 803.0pt x 602.25pt>
+<medians/jass_cpu_4.jpeg, id=1787, 803.0pt x 602.25pt>
 File: medians/jass_cpu_4.jpeg Graphic file (type jpg)
 <use medians/jass_cpu_4.jpeg>
 Package pdftex.def Info: medians/jass_cpu_4.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_cpu_5.jpeg, id=1783, 803.0pt x 602.25pt>
+<medians/jass_cpu_5.jpeg, id=1788, 803.0pt x 602.25pt>
 File: medians/jass_cpu_5.jpeg Graphic file (type jpg)
 <use medians/jass_cpu_5.jpeg>
 Package pdftex.def Info: medians/jass_cpu_5.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_mem_1.jpeg, id=1784, 803.0pt x 602.25pt>
+<medians/jass_mem_1.jpeg, id=1789, 803.0pt x 602.25pt>
 File: medians/jass_mem_1.jpeg Graphic file (type jpg)
 <use medians/jass_mem_1.jpeg>
 Package pdftex.def Info: medians/jass_mem_1.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_mem_2.jpeg, id=1785, 803.0pt x 602.25pt>
+<medians/jass_mem_2.jpeg, id=1790, 803.0pt x 602.25pt>
 File: medians/jass_mem_2.jpeg Graphic file (type jpg)
 <use medians/jass_mem_2.jpeg>
 Package pdftex.def Info: medians/jass_mem_2.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_mem_3.jpeg, id=1786, 803.0pt x 602.25pt>
+<medians/jass_mem_3.jpeg, id=1791, 803.0pt x 602.25pt>
 File: medians/jass_mem_3.jpeg Graphic file (type jpg)
 <use medians/jass_mem_3.jpeg>
 Package pdftex.def Info: medians/jass_mem_3.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_mem_4.jpeg, id=1787, 803.0pt x 602.25pt>
+<medians/jass_mem_4.jpeg, id=1792, 803.0pt x 602.25pt>
 File: medians/jass_mem_4.jpeg Graphic file (type jpg)
 <use medians/jass_mem_4.jpeg>
 Package pdftex.def Info: medians/jass_mem_4.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jass_mem_5.jpeg, id=1788, 803.0pt x 602.25pt>
+<medians/jass_mem_5.jpeg, id=1793, 803.0pt x 602.25pt>
 File: medians/jass_mem_5.jpeg Graphic file (type jpg)
 <use medians/jass_mem_5.jpeg>
 Package pdftex.def Info: medians/jass_mem_5.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_cpu_1.jpeg, id=1789, 803.0pt x 602.25pt>
+<medians/jsyn_cpu_1.jpeg, id=1794, 803.0pt x 602.25pt>
 File: medians/jsyn_cpu_1.jpeg Graphic file (type jpg)
 <use medians/jsyn_cpu_1.jpeg>
 Package pdftex.def Info: medians/jsyn_cpu_1.jpeg  used on input line 80.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_cpu_2.jpeg, id=1790, 803.0pt x 602.25pt>
+<medians/jsyn_cpu_2.jpeg, id=1795, 803.0pt x 602.25pt>
 File: medians/jsyn_cpu_2.jpeg Graphic file (type jpg)
 <use medians/jsyn_cpu_2.jpeg>
 Package pdftex.def Info: medians/jsyn_cpu_2.jpeg  used on input line 80.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_cpu_3.jpeg, id=1791, 803.0pt x 602.25pt>
+<medians/jsyn_cpu_3.jpeg, id=1796, 803.0pt x 602.25pt>
 File: medians/jsyn_cpu_3.jpeg Graphic file (type jpg)
 <use medians/jsyn_cpu_3.jpeg>
 Package pdftex.def Info: medians/jsyn_cpu_3.jpeg  used on input line 80.
@@ -2870,32 +2873,32 @@ File: medians/jsyn_cpu_4.jpeg Graphic file (type jpg)
 <use medians/jsyn_cpu_4.jpeg>
 Package pdftex.def Info: medians/jsyn_cpu_4.jpeg  used on input line 80.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_cpu_5.jpeg, id=1792, 803.0pt x 602.25pt>
+<medians/jsyn_cpu_5.jpeg, id=1797, 803.0pt x 602.25pt>
 File: medians/jsyn_cpu_5.jpeg Graphic file (type jpg)
 <use medians/jsyn_cpu_5.jpeg>
 Package pdftex.def Info: medians/jsyn_cpu_5.jpeg  used on input line 80.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_mem_1.jpeg, id=1793, 803.0pt x 602.25pt>
+<medians/jsyn_mem_1.jpeg, id=1798, 803.0pt x 602.25pt>
 File: medians/jsyn_mem_1.jpeg Graphic file (type jpg)
 <use medians/jsyn_mem_1.jpeg>
 Package pdftex.def Info: medians/jsyn_mem_1.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_mem_2.jpeg, id=1794, 803.0pt x 602.25pt>
+<medians/jsyn_mem_2.jpeg, id=1799, 803.0pt x 602.25pt>
 File: medians/jsyn_mem_2.jpeg Graphic file (type jpg)
 <use medians/jsyn_mem_2.jpeg>
 Package pdftex.def Info: medians/jsyn_mem_2.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_mem_3.jpeg, id=1795, 803.0pt x 602.25pt>
+<medians/jsyn_mem_3.jpeg, id=1800, 803.0pt x 602.25pt>
 File: medians/jsyn_mem_3.jpeg Graphic file (type jpg)
 <use medians/jsyn_mem_3.jpeg>
 Package pdftex.def Info: medians/jsyn_mem_3.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_mem_4.jpeg, id=1796, 803.0pt x 602.25pt>
+<medians/jsyn_mem_4.jpeg, id=1801, 803.0pt x 602.25pt>
 File: medians/jsyn_mem_4.jpeg Graphic file (type jpg)
 <use medians/jsyn_mem_4.jpeg>
 Package pdftex.def Info: medians/jsyn_mem_4.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 320.0935pt x 240.07785pt.
-<medians/jsyn_mem_5.jpeg, id=1797, 803.0pt x 602.25pt>
+<medians/jsyn_mem_5.jpeg, id=1802, 803.0pt x 602.25pt>
 File: medians/jsyn_mem_5.jpeg Graphic file (type jpg)
 <use medians/jsyn_mem_5.jpeg>
 Package pdftex.def Info: medians/jsyn_mem_5.jpeg  used on input line 95.
@@ -2929,9 +2932,6 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 143.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                bachproef-tin
 (biblatex)                and rerun LaTeX afterwards.
@@ -2941,38 +2941,32 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42074 strings out of 492616
- 782979 string characters out of 6129481
- 1395117 words of memory out of 5000000
+ 42081 strings out of 492616
+ 783046 string characters out of 6129481
+ 1395248 words of memory out of 5000000
  44687 multiletter control sequences out of 15000+600000
- 627045 words of font info for 294 fonts, out of 8000000 for 9000
+ 627720 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,67p,1130b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.4.5} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
-usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2019/texmf-dist
-/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/urw/avantgar/uagk8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
-rw/avantgar/uagko8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/hel
-vetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/u
-hvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bachproef-tin.pdf (126 pages, 2238470 bytes).
+ 62i,18n,67p,1337b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/urw/avantgar/uagk8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/urw/avantgar/uagko8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bachproef-tin.pdf (126 pages, 2246575 bytes).
 PDF statistics:
- 2181 PDF objects out of 2487 (max. 8388607)
- 1145 compressed objects within 12 object streams
- 300 named destinations out of 1000 (max. 500000)
+ 2186 PDF objects out of 2487 (max. 8388607)
+ 1147 compressed objects within 12 object streams
+ 298 named destinations out of 1000 (max. 500000)
  54145 words of extra memory for PDF output out of 61914 (max. 10000000)
 
