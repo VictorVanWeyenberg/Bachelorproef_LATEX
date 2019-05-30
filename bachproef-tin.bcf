@@ -2250,9 +2250,17 @@
     <bcf:citekey order="103">bartvincent</bcf:citekey>
     <bcf:citekey order="104">peterboone</bcf:citekey>
     <bcf:citekey order="105">thomashouthave</bcf:citekey>
-    <bcf:citekey order="106">jasscode</bcf:citekey>
-    <bcf:citekey order="107">thomashouthave</bcf:citekey>
-    <bcf:citekey order="108">granular</bcf:citekey>
+    <bcf:citekey order="106">vagabundos</bcf:citekey>
+    <bcf:citekey order="107">peterboone</bcf:citekey>
+    <bcf:citekey order="108">thomashouthave</bcf:citekey>
+    <bcf:citekey order="109">peterboone</bcf:citekey>
+    <bcf:citekey order="110">bartvincent</bcf:citekey>
+    <bcf:citekey order="111">jasscode</bcf:citekey>
+    <bcf:citekey order="112">thomashouthave</bcf:citekey>
+    <bcf:citekey order="113">granular</bcf:citekey>
+    <bcf:citekey order="114">peterboone</bcf:citekey>
+    <bcf:citekey order="115">bartvincent</bcf:citekey>
+    <bcf:citekey order="116">peterboone</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -107,57 +107,57 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Uitwerking van een Testcase}{43}{subsection.4.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Trend van de Metingen}{44}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.2}Trend van de Metingen}{45}{subsection.4.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusie}{47}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Is het mogelijk om digitaal te gaan?}{47}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Is het nuttig om digitaal te gaan?}{47}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}Is het nuttig om digitaal te gaan?}{48}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Is het realistisch om digitaal te gaan?}{48}{section.5.3}% 
+\contentsline {section}{\numberline {5.3}Is het realistisch om digitaal te gaan?}{49}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Wat wilt dit zeggen voor ontwikkelaars?}{48}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}Wat wilt dit zeggen voor ontwikkelaars?}{49}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Toekomstig Onderzoek}{48}{section.5.5}% 
+\contentsline {section}{\numberline {5.5}Toekomstig Onderzoek}{49}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Prototypering}{48}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.1}Prototypering}{49}{subsection.5.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{49}{appendix.A}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{51}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Correspondentie}{53}{appendix.B}% 
+\contentsline {chapter}{\numberline {B}Correspondentie}{55}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Transcripties van de interviews}{57}{appendix.C}% 
+\contentsline {chapter}{\numberline {C}Transcripties van de interviews}{59}{appendix.C}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Bart Vincent (Producer)}{57}{section.C.1}% 
+\contentsline {section}{\numberline {C.1}Bart Vincent (Producer)}{59}{section.C.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Peter Boone (Producer en Muzikaal Artiest)}{60}{section.C.2}% 
+\contentsline {section}{\numberline {C.2}Peter Boone (Producer en Muzikaal Artiest)}{62}{section.C.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Thomas Houthave (Sound Designer)}{63}{section.C.3}% 
+\contentsline {section}{\numberline {C.3}Thomas Houthave (Sound Designer)}{65}{section.C.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Vagabundos (Band)}{67}{section.C.4}% 
+\contentsline {section}{\numberline {C.4}Vagabundos (Band)}{69}{section.C.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Code van de Empirische Tests}{75}{appendix.D}% 
+\contentsline {chapter}{\numberline {D}Code van de Empirische Tests}{77}{appendix.D}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Testresultaten}{87}{appendix.E}% 
+\contentsline {chapter}{\numberline {E}Testresultaten}{89}{appendix.E}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.1}Testresultaten van Beads}{87}{section.E.1}% 
+\contentsline {section}{\numberline {E.1}Testresultaten van Beads}{89}{section.E.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.2}Testresultaten van JASS}{94}{section.E.2}% 
+\contentsline {section}{\numberline {E.2}Testresultaten van JASS}{96}{section.E.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.3}Testresultaten van JSyn}{101}{section.E.3}% 
+\contentsline {section}{\numberline {E.3}Testresultaten van JSyn}{103}{section.E.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {F}Smoothing van de Testresultaten}{109}{appendix.F}% 
+\contentsline {chapter}{\numberline {F}Smoothing van de Testresultaten}{111}{appendix.F}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.1}Smoothing van CPU testresultaten voor Beads}{109}{section.F.1}% 
+\contentsline {section}{\numberline {F.1}Smoothing van CPU testresultaten voor Beads}{111}{section.F.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.2}Smoothing van Mem testresultaten voor Beads}{109}{section.F.2}% 
+\contentsline {section}{\numberline {F.2}Smoothing van Mem testresultaten voor Beads}{111}{section.F.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.3}Smoothing van CPU testresultaten voor JASS}{109}{section.F.3}% 
+\contentsline {section}{\numberline {F.3}Smoothing van CPU testresultaten voor JASS}{111}{section.F.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.4}Smoothing van Mem testresultaten voor JASS}{109}{section.F.4}% 
+\contentsline {section}{\numberline {F.4}Smoothing van Mem testresultaten voor JASS}{111}{section.F.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.5}Smoothing van CPU testresultaten voor JSyn}{109}{section.F.5}% 
+\contentsline {section}{\numberline {F.5}Smoothing van CPU testresultaten voor JSyn}{111}{section.F.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.6}Smoothing van Mem testresultaten voor JSyn}{109}{section.F.6}% 
+\contentsline {section}{\numberline {F.6}Smoothing van Mem testresultaten voor JSyn}{111}{section.F.6}% 
 \contentsfinish 

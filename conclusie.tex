@@ -44,11 +44,32 @@ Een andere manier om deze vraag te beantwoorden is door te kijken naar de voorde
 	\item Digitaal is \textit{cleaner} en bevat geen ruis.
 \end{itemize}
 
+Hieruit wordt geconcludeerd dat het algemeen zeker nuttig is om digitaal te gaan. Maar daarmee is niet aan de wensen van ieder profiel voldaan. In sectie \ref{endeontwikkelaars} wordt hier dieper op ingegaan.
+
 \section{Is het realistisch om digitaal te gaan?}
 
-Om deze vraag te beantwoorden moest slechts één van de libraries een goede performantie vertonen. Pas dan mocht gezegd worden dat het realistisch is om 
+Om deze vraag te beantwoorden moest slechts één van de libraries een goede performantie vertonen. Pas dan mocht gezegd worden dat het realistisch is om digitaal te gaan. In sectie \ref{onderzoeksvraag3} werd aangetoond dat JSyn alle testcases aankon. Dus wordt geconcludeerd dat het realistisch is om digitaal te gaan.
+
+Voor een open-source Java library heeft JSyn goed gescoord op de empirische test. Maar wanneer puntje bij paaltje komt, zal het niet met JSyn geschreven worden. Hoe zou een enterprise library of een C-library dan presteren? 
 
 \section{Wat wilt dit zeggen voor ontwikkelaars?}
+\label{endeontwikkelaars}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{l|l|l|l|}
+\cline{3-4}
+\multicolumn{2}{l}{\multirow{2}{*}{}}  & \multicolumn{2}{c|}{\textbf{Empirische tests}}                                                                                                                  \\ \cline{3-4} 
+\multicolumn{2}{l}{}   & \textbf{Positief}                                                                           & \textbf{Negatief}                                                                              \\ \hline
+\multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{Emotionele tests}}} & \textbf{Positief} & Betreed de markt.                                                                           & \begin{tabular}[c]{@{}l@{}}Er is interesse maar\\ het is technisch niet mogelijk.\end{tabular} \\ \cline{2-4} 
+\multicolumn{1}{|l|}{}                                           & \textbf{Negatief} & \begin{tabular}[c]{@{}l@{}}Het is technisch mogelijk\\ maar weinig vraag naar.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Slecht idee om de markt\\ te betreden.\end{tabular}                 \\ \hline
+\end{tabular}
+\caption{Uitkomsten van de Emotionele-Empirische test.}
+\label{EEtest}
+\end{table}
+
+ Tabel \ref{EEtest} geeft beter inzicht in de situatie.
 
 \section{Toekomstig Onderzoek}
 
